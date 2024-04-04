@@ -600,5 +600,5 @@ linearGradient#gradient stop:nth-child(3) {
 .crown-svg {
   width: 40px; /* Set the width to 50px */
   height: 40px; /* Set the height to 50px */
-  margin-top: 50px; /* Move the SVG 20px down */
+  margin-top: 100px; /* Move the SVG 20px down */
 }

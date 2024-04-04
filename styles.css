@@ -1,15 +1,4 @@
 body {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 365vh; /* Set minimum height to viewport height */
-  margin-bottom: 2000px; /* Adjust the margin from the bottom as needed */
-  height: auto; /* Allow height to adjust based on content */
   background: #17141d;
 }
 

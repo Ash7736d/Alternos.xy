@@ -1,8 +1,15 @@
 body {
-  background: #17141d; /* Background color */
-  height: 100vh; /* Set height to 100% of viewport height */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  margin: 0;
+  padding: 0;
+  background: #17141d; /* Background color for the entire body */
+}
+
+.container {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: center;
+  height: 100vh; /* Fill the vertical space */
+  width: 100%; /* Fill the horizontal space */
 }
 
 .card {

@@ -341,7 +341,6 @@ linearGradient#gradient stop:nth-child(3) {
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -309px; /* Move right by approximately 2 inches */
   margin-top: 580px; /* Move down by approximately 7 inches */
-  margin-bottom: 10px;
 }
 
 .notificationsecond:before {
@@ -476,7 +475,7 @@ linearGradient#gradient stop:nth-child(3) {
   isolation: isolate;
   position: relative;
   width: 19.4rem;
-  height: 26rem;
+  height: 25rem;
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
@@ -486,9 +485,9 @@ linearGradient#gradient stop:nth-child(3) {
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
-  margin-left: -290px; /* Move right by approximately 2 inches */
-  margin-top: 750px; /* Move down by approximately 7 inches */
-  padding-bottom: 90px; /* Adjust the bottom padding as needed */
+  margin-left: -312px; /* Move right by approximately 2 inches */
+  margin-top: 760px; /* Move down by approximately 7 inches */
+  padding-bottom: 20px; /* Adjust the bottom padding as needed */
 }
 
 .notificationleaderboard:before {

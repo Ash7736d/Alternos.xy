@@ -341,7 +341,7 @@ linearGradient#gradient stop:nth-child(3) {
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -309px; /* Move right by approximately 2 inches */
   margin-top: 580px; /* Move down by approximately 7 inches */
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .notificationsecond:before {
@@ -476,7 +476,7 @@ linearGradient#gradient stop:nth-child(3) {
   isolation: isolate;
   position: relative;
   width: 19.4rem;
-  height: 26.5rem;
+  height: 26rem;
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
@@ -486,8 +486,8 @@ linearGradient#gradient stop:nth-child(3) {
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
-  margin-left: -300px; /* Move right by approximately 2 inches */
-  margin-top: 800px; /* Move down by approximately 7 inches */
+  margin-left: -297px; /* Move right by approximately 2 inches */
+  margin-top: 750px; /* Move down by approximately 7 inches */
   padding-bottom: 90px; /* Adjust the bottom padding as needed */
 }
 
@@ -599,5 +599,5 @@ linearGradient#gradient stop:nth-child(3) {
 .crown-svg {
   width: 40px; /* Set the width to 50px */
   height: 40px; /* Set the height to 50px */
-  margin-top: -55px; /* Move the SVG 20px down */
+  margin-top: -100px; /* Move the SVG 20px down */
 }

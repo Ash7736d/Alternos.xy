@@ -475,7 +475,7 @@ linearGradient#gradient stop:nth-child(3) {
   isolation: isolate;
   position: relative;
   width: 19.4rem;
-  height: 25rem;
+  height: 26rem;
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
@@ -486,8 +486,8 @@ linearGradient#gradient stop:nth-child(3) {
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -312px; /* Move right by approximately 2 inches */
-  margin-top: 760px; /* Move down by approximately 7 inches */
-  padding-bottom: 20px; /* Adjust the bottom padding as needed */
+  margin-top: 770px; /* Move down by approximately 7 inches */
+  padding-bottom: 10px; /* Adjust the bottom padding as needed */
 }
 
 .notificationleaderboard:before {
@@ -598,6 +598,6 @@ linearGradient#gradient stop:nth-child(3) {
 .crown-svg {
   width: 40px; /* Set the width to 50px */
   height: 40px; /* Set the height to 50px */
-  margin-top: -150px; /* Move the SVG 20px down */
-  margin-left: -40px;
+  margin-top: -70px; /* Move the SVG 20px down */
+  margin-left: -20px;
 }

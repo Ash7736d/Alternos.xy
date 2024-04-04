@@ -221,7 +221,7 @@ linearGradient#gradient stop:nth-child(3) {
   flex-direction: column;
   isolation: isolate;
   position: relative;
-  width: 19rem;
+  width: 20rem;
   height: 8rem;
   background: #29292c;
   border-radius: 1rem;
@@ -233,7 +233,7 @@ linearGradient#gradient stop:nth-child(3) {
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -312px; /* Move right by approximately 2 inches */
-  margin-top: 370px; /* Move down by approximately 7 inches */
+  margin-top: 410px; /* Move down by approximately 7 inches */
 }
 
 .notification:before {

@@ -232,8 +232,8 @@ linearGradient#gradient stop:nth-child(3) {
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
-  margin-left: -310px; /* Move right by approximately 2 inches */
-  margin-top: 200px; /* Move down by approximately 7 inches */
+  margin-left: -312px; /* Move right by approximately 2 inches */
+  margin-top: 300px; /* Move down by approximately 7 inches */
 }
 
 .notification:before {

@@ -1,0 +1,606 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 365vh; /* Set minimum height to viewport height */
+  margin-bottom: 2000px; /* Adjust the margin from the bottom as needed */
+  height: auto; /* Allow height to adjust based on content */
+  background: #17141d;
+}
+
+.card {
+  position: relative;
+  background: #17141d;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  padding: 2rem;
+  perspective: 50px;
+  margin-top: -2400px; /* increase to move down, decrease for up*/
+  color: #ffffff; /* changed text color to white */
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.9),
+    0 0 1rem rgba(0,0,0,0.9);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.card__image-container {
+  margin: -2rem -2rem 1rem -2rem;
+}
+
+.card__line {
+  opacity: 0;
+  animation: LineFadeIn .8s .8s forwards ease-in;
+}
+
+.card__image {
+  opacity: 0;
+  animation: ImageFadeIn .8s 1.4s forwards;
+}
+
+.card__title {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  margin-left: 22px; /* Adjust the left margin as needed */
+  font-weight: 800;
+  perspective: 200px;
+  letter-spacing: 0.01em;
+  font-size: 19px; /* Adjust the font size as needed */
+  perspective: 400px;
+  background: linear-gradient(to right, #000000, #ffffff, #000000, #76a2a6); /* Define your gradient colors */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  background-clip: text; /* Apply gradient to text */
+  -webkit-text-fill-color: transparent; /* Hide original text */
+  text-fill-color: transparent; /* Hide original text */
+}
+
+.card__description {
+  margin-top: 10px; /* changed margin-top to 10px */
+  margin-left: 80px; /* Adjust the left margin as needed */
+  font-weight: 400; /* changed font weight to normal */
+  letter-spacing: normal; /* removed letter-spacing */
+  perspective: 200px;
+  background: linear-gradient(to right, #000000, #ffffff, #000000, #76a2a6); /* Define your gradient colors */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  background-clip: text; /* Apply gradient to text */
+  -webkit-text-fill-color: transparent; /* Hide original text */
+  text-fill-color: transparent; /* Hide original text */
+}
+
+.card__content {
+  margin-top: -1rem;
+  opacity: 0;
+  animation: ContentFadeIn .8s 1.6s forwards;
+}
+
+.card__svg {
+  position: absolute;
+  left: 0;
+  top: 115px;
+}
+
+@keyframes LineFadeIn {
+  0% {
+    opacity: 0;
+    d: path("M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 ");
+    stroke: #fff;
+  }
+
+  50% {
+    opacity: 1;
+    d: path("M 0 300 Q 50 300 100 300 Q 250 300 350 300 C 350 300 500 300 650 300 Q 750 300 800 300");
+    stroke: #888BFF;
+  }
+
+  100% {
+    opacity: 1;
+    d: path("M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400");
+    stroke: #545581;
+  }
+}
+
+@keyframes ContentFadeIn {
+  0% {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes ImageFadeIn {
+  0% {
+    transform: translate(-.5rem, -.5rem) scale(1.05);
+    opacity: 0;
+    filter: blur(2px);
+  }
+
+  50% {
+    opacity: 1;
+    filter: blur(2px);
+  }
+
+  100% {
+    transform: translateY(0) scale(1.0);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* card gradient line */
+linearGradient#gradient {
+  stop-color:#000000;
+}
+
+linearGradient#gradient stop:nth-child(2) {
+  stop-color:#76a2a6;
+}
+
+linearGradient#gradient stop:nth-child(3) {
+  stop-color:#ffffff;
+}
+
+ /* code input container */
+.input {
+  display: block;
+  width: calc(100% - 25px); /* Subtract padding from width */
+  max-width: 170px;
+  height: 10px;
+  padding: 12px;
+  perspective: 50px;
+  border-radius: 30px;
+  border: 5px black;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 0px 20px -18px;
+  margin-left: 26px; /* Move right by approximately 2 inches */
+  margin-top: 145px; /* Move down by 1 inch */
+}
+
+.input:hover {
+  border-color: lightgrey; /* Change border color on hover */
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+  transform: scale(0.95);
+}
+
+.input:focus {
+  border-color: black; /* Change border color on focus */
+}
+
+/* redeem button */
+
+.rainbow-hover {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff7576;
+  background-color: #043358;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  position: relative;
+  line-height: 24px;
+  border-radius: 9px;
+  box-shadow: 0px 1px 2px #000000, 0px 4px 16px #000000;
+  transform-style: preserve-3d;
+  transform: scale(var(--s, 1)) perspective(600px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  perspective: 50px;
+  margin-top: 42px; /* Move down by 1 line space */
+  margin-left: 65px; 
+  transition: transform 0.1s;
+}
+
+.sp {
+  background: linear-gradient(90deg, #9aa7b1, #3780b2, #9aa7b1, #3780b2, #9aa7b1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: block;
+}
+
+.rainbow-hover:active {
+  transition: 0.3s;
+  transform: scale(0.93);
+}
+
+/* sett notification card */
+
+.notification {
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  position: relative;
+  width: 19rem;
+  height: 8rem;
+  background: #29292c;
+  border-radius: 1rem;
+  overflow: hidden;
+  perspective: 110px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
+  --color: #32a6ff;
+  box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
+  margin-left: -310px; /* Move right by approximately 2 inches */
+  margin-top: -1820px; /* Move down by approximately 7 inches */
+  margin-bottom: 30px; /* Add margin-bottom to separate it from the second card */
+}
+
+.notification:before {
+  position: absolute;
+  content: "";
+  inset: 0.0625rem;
+  border-radius: 0.9375rem;
+  background: #18181b;
+  z-index: 2
+}
+
+.notification:after {
+  position: absolute;
+  content: "";
+  width: 0.25rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--gradient);
+  transition: transform 300ms ease;
+  z-index: 4;
+}
+
+.notification:hover:after {
+  transform: translateX(0.15rem)
+}
+
+.notititle {
+  color: var(--color);
+  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notification:hover .notititle {
+  transform: translateX(0.15rem)
+}
+
+.notibody {
+  color: #99999d;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notification:hover .notibody {
+  transform: translateX(0.25rem)
+}
+
+.notiglow,
+.notiborderglow {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle closest-side at center, white, transparent);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.notiglow {
+  z-index: 3;
+}
+
+.notiborderglow {
+  z-index: 1;
+}
+
+.notification:hover .notiglow {
+  opacity: 0.1
+}
+
+.notification:hover .notiborderglow {
+  opacity: 0.1
+}
+
+.note {
+  color: var(--color);
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 0.9rem;
+  width: 75%;
+}
+
+/* 2nd set notification card */
+.notificationsecond {
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  position: relative;
+  width: 19rem;
+  height: 8rem;
+  background: #29292c;
+  border-radius: 1rem;
+  overflow: hidden;
+  perspective: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
+  --color: #32a6ff;
+  box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
+  margin-left: -305px; /* Move right by approximately 2 inches */
+  margin-top: -1550px; /* Move down by approximately 7 inches */
+  margin-bottom: 30px;
+}
+
+.notificationsecond:before {
+  position: absolute;
+  content: "";
+  inset: 0.0625rem;
+  border-radius: 0.9375rem;
+  background: #18181b;
+  z-index: 2
+}
+
+.notificationsecond:after {
+  position: absolute;
+  content: "";
+  width: 0.25rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--gradient);
+  transition: transform 300ms ease;
+  z-index: 4;
+}
+
+.notificationsecond:hover:after {
+  transform: translateX(0.15rem)
+}
+
+.notititlesecond {
+  color: var(--color);
+  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notificationsecond:hover .notititlesecond {
+  transform: translateX(0.15rem)
+}
+
+.notibodysecond {
+  color: #99999d;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notificationsecond:hover .notibodysecond {
+  transform: translateX(0.25rem)
+}
+
+.notiglowsecond,
+.notiborderglowsecond {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle closest-side at center, white, transparent);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.notiglowsecond {
+  z-index: 3;
+}
+
+.notiborderglowsecond {
+  z-index: 1;
+}
+
+.notificationsecond:hover .notiglowsecond {
+  opacity: 0.1
+}
+
+.notificationsecond:hover .notiborderglowsecond {
+  opacity: 0.1
+}
+
+.note {
+  color: var(--color);
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 0.9rem;
+  width: 75%;
+}
+
+/* loader content */
+
+.loader {
+  display: block;
+  --height-of-loader: 4px;
+  --loader-color: linear-gradient(to right, #feb2ff, #b2e4ff, #bdffb2, #ffdeb2, #adafb3); /* Replace with your desired gradient */
+  width: 130px;
+  height: var(--height-of-loader);
+  border-radius: 30px;
+  background-color: rgba(0,0,0,0.2);
+  perspective: 100px;
+  margin-left: 30px;
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  background: var(--loader-color);
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  border-radius: 30px;
+  animation: moving 1s ease-in-out infinite;
+}
+
+@keyframes moving {
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+    right: 0;
+    left: unset;
+  }
+}
+
+/* 3rd card notification leaderboard */
+
+.notificationleaderboard {
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  position: relative;
+  width: 19rem;
+  height: 30rem;
+  background: #29292c;
+  border-radius: 1rem;
+  overflow: hidden;
+  perspective: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
+  --color: #32a6ff;
+  box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
+  margin-left: -305px; /* Move right by approximately 2 inches */
+  margin-top: -940px; /* Move down by approximately 7 inches */
+  padding-bottom: 90px; /* Adjust the bottom padding as needed */
+}
+
+.notificationleaderboard:before {
+  position: absolute;
+  content: "";
+  inset: 0.0625rem;
+  border-radius: 0.9375rem;
+  background: #18181b;
+  z-index: 2
+}
+
+.notificationleaderboard:after {
+  position: absolute;
+  content: "";
+  width: 0.25rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--gradient);
+  transition: transform 300ms ease;
+  z-index: 4;
+}
+
+.notificationleaderboard:hover:after {
+  transform: translateX(0.15rem)
+}
+
+.notititleleaderboard {
+  color: var(--color);
+  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notificationleaderboard:hover .notititleleaderboard {
+  transform: translateX(0.15rem)
+}
+
+.notibodyleaderboard {
+  color: #99999d;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+  margin-bottom: 50px;
+}
+
+/* user leaderboard list */
+.user1, .user2, .user3, .user4, .user5, .user6, .user7, .user8, .user9, .user10 {
+  color: #ffffff;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+  margin-top: -5px;
+}
+
+.line {
+  color: #ffffff;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+  margin-left: 140px;
+  margin-top: -333px;
+}
+
+.notificationleaderboard:hover .notibodyleaderboard {
+  transform: translateX(0.25rem)
+}
+
+.notiglowleaderboard, .notiborderglowleaderboard {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle closest-side at center, white, transparent);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.notiglowleaderboard {
+  z-index: 3;
+}
+
+.notiborderglowleaderboard {
+  z-index: 1;
+}
+
+.notificationleaderboard:hover .notiglowleaderboard {
+  opacity: 0.1
+}
+
+.notificationleaderboard:hover .notiborderglowleaderboard {
+  opacity: 0.1
+}
+
+.note {
+  color: var(--color);
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 0.9rem;
+  width: 75%;
+}
+
+/* season icon svg */
+.crown-svg {
+  width: 40px; /* Set the width to 50px */
+  height: 40px; /* Set the height to 50px */
+  margin-top: 50px; /* Move the SVG 20px down */
+}
+

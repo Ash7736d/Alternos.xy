@@ -233,7 +233,7 @@ linearGradient#gradient stop:nth-child(3) {
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -310px; /* Move right by approximately 2 inches */
-  margin-top: -1820px; /* Move down by approximately 7 inches */
+  margin-top: -20px; /* Move down by approximately 7 inches */
   margin-bottom: 30px; /* Add margin-bottom to separate it from the second card */
 }
 
@@ -341,7 +341,7 @@ linearGradient#gradient stop:nth-child(3) {
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -305px; /* Move right by approximately 2 inches */
-  margin-top: -20px; /* Move down by approximately 7 inches */
+  margin-top: 20px; /* Move down by approximately 7 inches */
   margin-bottom: 30px;
 }
 

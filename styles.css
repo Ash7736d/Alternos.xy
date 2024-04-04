@@ -8,7 +8,7 @@ body {
   display: flex;
   align-items: flex-start; /* Align items to the top */
   justify-content: center;
-  height: 140vh; /* Fill the vertical space */
+  height: 150vh; /* Fill the vertical space */
   width: 100%; /* Fill the horizontal space */
 }
 
@@ -20,7 +20,7 @@ body {
   border-radius: 10px;
   padding: 2rem;
   perspective: 50px;
-  margin-top: 50px; /* increase to move down, decrease for up*/
+  margin-top: 30px; /* increase to move down, decrease for up*/
   color: #ffffff; /* changed text color to white */
   box-shadow: 0 .25rem .25rem rgba(0,0,0,0.9),
     0 0 1rem rgba(0,0,0,0.9);

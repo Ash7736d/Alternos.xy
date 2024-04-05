@@ -492,7 +492,7 @@ linearGradient#gradient stop:nth-child(3) {
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -312px; /* Move right by approximately 2 inches */
-  margin-top: 800px; /* Move down by approximately 7 inches */
+  margin-top: 700px; /* Move down by approximately 7 inches */
 }
 
 .notificationleaderboard:before {
@@ -605,6 +605,7 @@ linearGradient#gradient stop:nth-child(3) {
 .leaderboard-svgS {
   width: 60px;
   height: 60px;
+  position: absolute; /* Position the icons absolutely */
   z-index: 9999; /* Set a high z-index to ensure the icons appear above other elements */
   transition: transform 0.3s ease; /* Add a transition for the transform property */
 }

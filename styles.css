@@ -601,9 +601,10 @@ linearGradient#gradient stop:nth-child(3) {
 
 /* season icons & svgs */
 .crown-svg {
+  display: flex;
   width: 60px; /* Set the width to 50px */
   height: 60px; /* Set the height to 50px */
-  position: absolute; /* Position the icon absolutely */
+  position: relative; /* Position the icon absolutely */
   perspective: 100px;
   top: 130px; /* Adjust the top position as needed */
   left: 190px; /* Adjust the left position as needed */
@@ -611,11 +612,12 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .leaderboard-svg {
+  display: flex;
   width: 60px;
   height: 60px;
-  position: absolute;
-  top: 460px;
-  left: 80px;
+  position: relative;
+  top: 730px;
+  left: 120px;
   z-index: 9999;
   transition: transform 0.3s ease; /* Add a transition for the transform property */
 }

@@ -600,34 +600,27 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 /* season icons & svgs */
-.leaderboard-svg {
-  display: flex;
+/* season icons & svgs */
+.leaderboard-svg,
+.leaderboard-svgS {
   width: 60px;
   height: 60px;
-  position: relative;
-  top: 730px;
-  left: -330px;
-  z-index: 9999;
+  position: absolute; /* Position the icons absolutely */
+  z-index: 9999; /* Set a high z-index to ensure the icons appear above other elements */
   transition: transform 0.3s ease; /* Add a transition for the transform property */
 }
 
-.leaderboard-svg:hover {
-  transform: scale(1.1) translateY(-5px); /* Increase the scale and move up slightly on hover */
+.leaderboard-svg {
+  top: 730px;
+  left: -330px;
 }
 
 .leaderboard-svgS {
-  display: flex;
-  width: 60px;
-  height: 60px;
-  position: relative;
   top: 730px;
   left: -110px;
-  z-index: 9999;
-  transition: transform 0.3s ease; /* Add a transition for the transform property */
 }
 
-.icon .leaderboard-svgS:hover {
-  transform: scale(1.1); /* Increase the scale on hover */
+.leaderboard-svg:hover,
+.leaderboard-svgS:hover {
+  transform: scale(1.1) translateY(-5px); /* Increase the scale and move up slightly on hover */
 }
-
-

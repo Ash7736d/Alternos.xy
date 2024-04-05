@@ -611,8 +611,8 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .leaderboard-svg {
-  width: 90px; /* Set the width to 50px */
-  height: 90px; /* Set the height to 50px */
+  width: 900px; /* Set the width to 50px */
+  height: 900px; /* Set the height to 50px */
   position: absolute; /* Position the icon absolutely */
   perspective: 100px;
   top: 400px; /* Adjust the top position as needed */

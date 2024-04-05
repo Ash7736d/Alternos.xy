@@ -607,7 +607,7 @@ linearGradient#gradient stop:nth-child(3) {
   position: relative; /* Position the icon absolutely */
   perspective: 100px;
   top: 200px; /* Adjust the top position as needed */
-  left: 190px; /* Adjust the left position as needed */
+  left: 250px; /* Adjust the left position as needed */
   z-index: 9999; /* Set a high z-index to ensure the icon appears above other elements */
 }
 
@@ -617,7 +617,7 @@ linearGradient#gradient stop:nth-child(3) {
   height: 60px;
   position: relative;
   top: 730px;
-  left: -50px;
+  left: -200px;
   z-index: 9999;
   transition: transform 0.3s ease; /* Add a transition for the transform property */
 }

@@ -611,11 +611,23 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .leaderboard-svg {
-  width: 500px; /* Set the width to 50px */
-  height: 500px; /* Set the height to 50px */
+  width: 60px; /* Set the width to 50px */
+  height: 60px; /* Set the height to 50px */
   position: absolute; /* Position the icon absolutely */
   perspective: 100px;
   top: 460px; /* Adjust the top position as needed */
   left: 50px; /* Adjust the left position as needed */
   z-index: 9999; /* Set a high z-index to ensure the icon appears above other elements */
 }
+
+.leaderboard-svgS {
+  width: 60px; /* Set the width to 50px */
+  height: 60px; /* Set the height to 50px */
+  position: absolute; /* Position the icon absolutely */
+  perspective: 100px;
+  top: 460px; /* Adjust the top position as needed */
+  left: 30px; /* Adjust the left position as needed */
+  z-index: 9999; /* Set a high z-index to ensure the icon appears above other elements */
+}
+
+

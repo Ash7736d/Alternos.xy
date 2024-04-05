@@ -549,13 +549,22 @@ linearGradient#gradient stop:nth-child(3) {
   margin-top: -5px;
 }
 
-.line, .line2 {
+.line {
   color: #ffffff;
-  padding: 0 1.25rem;
+  padding: 0 1.20rem;
   transition: transform 300ms ease;
   z-index: 5;
-  margin-left: 140px;
+  margin-left: 145px;
   margin-top: -333px;
+}
+
+.line2 {
+  color: #ffffff;
+  padding: 0 1.20rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+  margin-left: 145px;
+  margin-top: -328px;
 }
 
 .notificationleaderboard:hover .notibodyleaderboard {

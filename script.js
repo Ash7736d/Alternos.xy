@@ -10,7 +10,7 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
   responseElement.textContent = ''; // Clear the response element
   responseElement.appendChild(loader);
 
-  // Delay showing the original message for 5 seconds
+  // Delay showing the original message for 3 seconds
   setTimeout(function() {
     if (inputCode === "") {
       responseElement.textContent = '𝙄𝙣𝙥𝙪𝙩 𝙛𝙞𝙚𝙡𝙙 𝙘𝙖𝙣𝙣𝙤𝙩 𝙗𝙚 𝙚𝙢𝙥𝙩𝙮! ⚠️'; // Show error message if input field is empty
@@ -37,8 +37,7 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
       }
     }
 
-    // Adjust the position of the response messages and loader
+    // Adjust the position of the response messages
     responseElement.style.marginLeft = '45px'; // Move the message 45px to the right
-    loader.style.marginLeft = '20px'; // Move the loader 45px to the right
   }, 5000); // 5 seconds delay
 });

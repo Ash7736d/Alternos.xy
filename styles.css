@@ -197,7 +197,7 @@ linearGradient#gradient stop:nth-child(3) {
   transform-style: preserve-3d;
   transform: scale(var(--s, 1)) perspective(600px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
   perspective: 5px;
-  margin-top: 30px; /* Move down by 1 line space */
+  margin-top: 34px; /* Move down by 1 line space */
   margin-left: 65px; 
   transition: transform 0.1s;
 }
@@ -443,7 +443,7 @@ linearGradient#gradient stop:nth-child(3) {
   border-radius: 30px;
   background-color: rgba(0,0,0,0.2);
   perspective: 100px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .loader::before {
@@ -451,9 +451,10 @@ linearGradient#gradient stop:nth-child(3) {
   position: absolute;
   background: var(--loader-color);
   top: 0;
-  left: 0;
+  left: 20;
   width: 0%;
   height: 100%;
+  perspective: 100px;
   border-radius: 30px;
   animation: moving 1s ease-in-out infinite;
 }

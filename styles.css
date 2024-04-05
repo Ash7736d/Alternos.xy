@@ -56,7 +56,7 @@ body {
   background-clip: text; /* Apply gradient to text */
   -webkit-text-fill-color: transparent; /* Hide original text */
   text-fill-color: transparent; /* Hide original text */
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9); /* Adjust the opacity value as needed */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Adjust the opacity value as needed */
 }
 
 .card__description {
@@ -70,7 +70,7 @@ body {
   background-clip: text; /* Apply gradient to text */
   -webkit-text-fill-color: transparent; /* Hide original text */
   text-fill-color: transparent; /* Hide original text */
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9); /* Adjust the opacity value as needed */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4); /* Adjust the opacity value as needed */
 }
 
 .card__content {
@@ -598,10 +598,10 @@ linearGradient#gradient stop:nth-child(3) {
 
 /* season icon svg */
 .crown-svg {
-  width: 50px; /* Set the width to 50px */
-  height: 50px; /* Set the height to 50px */
+  width: 60px; /* Set the width to 50px */
+  height: 60px; /* Set the height to 50px */
   position: absolute; /* Position the icon absolutely */
-  top: 80px; /* Adjust the top position as needed */
-  left: 100px; /* Adjust the left position as needed */
+  top: 130px; /* Adjust the top position as needed */
+  left: 150px; /* Adjust the left position as needed */
   z-index: 9999; /* Set a high z-index to ensure the icon appears above other elements */
 }

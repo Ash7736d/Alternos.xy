@@ -598,6 +598,8 @@ linearGradient#gradient stop:nth-child(3) {
 .crown-svg {
   width: 50px; /* Set the width to 50px */
   height: 50px; /* Set the height to 50px */
-  margin-top: 50px; /* Move the SVG 20px down */
-  margin-left: -10px;
+  position: absolute; /* Position the icon absolutely */
+  top: 50px; /* Adjust the top position as needed */
+  left: -10px; /* Adjust the left position as needed */
+  z-index: 9999; /* Set a high z-index to ensure the icon appears above other elements */
 }

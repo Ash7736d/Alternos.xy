@@ -56,7 +56,7 @@ body {
   background-clip: text; /* Apply gradient to text */
   -webkit-text-fill-color: transparent; /* Hide original text */
   text-fill-color: transparent; /* Hide original text */
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Adjust the opacity value as needed */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); /* Adjust the opacity value as needed */
 }
 
 .card__description {
@@ -70,7 +70,7 @@ body {
   background-clip: text; /* Apply gradient to text */
   -webkit-text-fill-color: transparent; /* Hide original text */
   text-fill-color: transparent; /* Hide original text */
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4); /* Adjust the opacity value as needed */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Adjust the opacity value as needed */
 }
 
 .card__content {
@@ -197,7 +197,7 @@ linearGradient#gradient stop:nth-child(3) {
   transform-style: preserve-3d;
   transform: scale(var(--s, 1)) perspective(600px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
   perspective: 5px;
-  margin-top: 42px; /* Move down by 1 line space */
+  margin-top: 45px; /* Move down by 1 line space */
   margin-left: 65px; 
   transition: transform 0.1s;
 }
@@ -603,6 +603,6 @@ linearGradient#gradient stop:nth-child(3) {
   position: absolute; /* Position the icon absolutely */
   perspective: 100px;
   top: 130px; /* Adjust the top position as needed */
-  left: 175px; /* Adjust the left position as needed */
+  left: 190px; /* Adjust the left position as needed */
   z-index: 9999; /* Set a high z-index to ensure the icon appears above other elements */
 }

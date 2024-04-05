@@ -443,8 +443,9 @@ linearGradient#gradient stop:nth-child(3) {
   border-radius: 30px;
   background-color: rgba(0,0,0,0.2);
   perspective: 100px;
-  margin-left: 20px;
-  margin-top: 30px;
+  position: absolute; /* Use absolute positioning */
+  top: 30px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
 }
 
 .loader::before {
@@ -452,7 +453,7 @@ linearGradient#gradient stop:nth-child(3) {
   position: absolute;
   background: var(--loader-color);
   top: 0;
-  left: 20;
+  left: 0;
   width: 0%;
   height: 100%;
   perspective: 100px;

@@ -601,7 +601,6 @@ linearGradient#gradient stop:nth-child(3) {
 
 /* season icons & svgs */
 .crown-svg {
-  display: flex;
   width: 60px; /* Set the width to 50px */
   height: 60px; /* Set the height to 50px */
   position: absolute; /* Position the icon absolutely */

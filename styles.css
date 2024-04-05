@@ -628,7 +628,7 @@ linearGradient#gradient stop:nth-child(3) {
   width: 60px;
   height: 60px;
   position: absolute;
-  top: 750px;
+  top: 730px;
   left: 30px;
   z-index: 9999;
   transition: transform 0.3s ease; /* Add a transition for the transform property */

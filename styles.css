@@ -549,7 +549,7 @@ linearGradient#gradient stop:nth-child(3) {
   margin-top: -5px;
 }
 
-.line {
+.line, .line2 {
   color: #ffffff;
   padding: 0 1.25rem;
   transition: transform 300ms ease;

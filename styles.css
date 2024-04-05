@@ -25,7 +25,7 @@ body {
   box-shadow: 0 .25rem .25rem rgba(0,0,0,0.9),
     0 0 1rem rgba(0,0,0,0.9);
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .card__image-container {
@@ -56,6 +56,7 @@ body {
   background-clip: text; /* Apply gradient to text */
   -webkit-text-fill-color: transparent; /* Hide original text */
   text-fill-color: transparent; /* Hide original text */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9); /* Adjust the opacity value as needed */
 }
 
 .card__description {
@@ -69,6 +70,7 @@ body {
   background-clip: text; /* Apply gradient to text */
   -webkit-text-fill-color: transparent; /* Hide original text */
   text-fill-color: transparent; /* Hide original text */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9); /* Adjust the opacity value as needed */
 }
 
 .card__content {
@@ -154,8 +156,8 @@ linearGradient#gradient stop:nth-child(3) {
   max-width: 170px;
   height: 10px;
   padding: 12px;
-  perspective: 50px;
-  border-radius: 30px;
+  perspective: 5px;
+  border-radius: 25px;
   border: 5px black;
   outline: none;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
@@ -194,7 +196,7 @@ linearGradient#gradient stop:nth-child(3) {
   box-shadow: 0px 1px 2px #000000, 0px 4px 16px #000000;
   transform-style: preserve-3d;
   transform: scale(var(--s, 1)) perspective(600px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
-  perspective: 50px;
+  perspective: 5px;
   margin-top: 42px; /* Move down by 1 line space */
   margin-left: 65px; 
   transition: transform 0.1s;
@@ -226,7 +228,7 @@ linearGradient#gradient stop:nth-child(3) {
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
-  perspective: 110px;
+  perspective: 5px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
@@ -333,7 +335,7 @@ linearGradient#gradient stop:nth-child(3) {
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
-  perspective: 100px;
+  perspective: 5px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
@@ -479,15 +481,15 @@ linearGradient#gradient stop:nth-child(3) {
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
-  perspective: 100px;
+  perspective: 5px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -312px; /* Move right by approximately 2 inches */
-  margin-top: 770px; /* Move down by approximately 7 inches */
-  padding-bottom: 10px; /* Adjust the bottom padding as needed */
+  margin-top: 785px; /* Move down by approximately 7 inches */
+  padding-bottom: 5px; /* Adjust the bottom padding as needed */
 }
 
 .notificationleaderboard:before {
@@ -600,6 +602,6 @@ linearGradient#gradient stop:nth-child(3) {
   height: 50px; /* Set the height to 50px */
   position: absolute; /* Position the icon absolutely */
   top: 50px; /* Adjust the top position as needed */
-  left: 30px; /* Adjust the left position as needed */
+  left: 100px; /* Adjust the left position as needed */
   z-index: 9999; /* Set a high z-index to ensure the icon appears above other elements */
 }

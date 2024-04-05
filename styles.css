@@ -600,27 +600,3 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 /* season icons & svgs */
-/* season icons & svgs */
-.leaderboard-svg,
-.leaderboard-svgS {
-  width: 60px;
-  height: 60px;
-  position: absolute; /* Position the icons absolutely */
-  z-index: 9999; /* Set a high z-index to ensure the icons appear above other elements */
-  transition: transform 0.3s ease; /* Add a transition for the transform property */
-}
-
-.leaderboard-svg {
-  top: 730px;
-  left: -330px;
-}
-
-.leaderboard-svgS {
-  top: 730px;
-  left: -110px;
-}
-
-.leaderboard-svg:hover,
-.leaderboard-svgS:hover {
-  transform: scale(1.1) translateY(-5px); /* Increase the scale and move up slightly on hover */
-}

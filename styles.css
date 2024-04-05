@@ -615,7 +615,7 @@ linearGradient#gradient stop:nth-child(3) {
   height: 60px;
   position: absolute;
   top: 460px;
-  left: 50px;
+  left: 80px;
   z-index: 9999;
   transition: transform 0.3s ease; /* Add a transition for the transform property */
 }
@@ -630,7 +630,7 @@ linearGradient#gradient stop:nth-child(3) {
   height: 60px;
   position: relative;
   top: 730px;
-  left: 30px;
+  left: -30px;
   z-index: 9999;
   transition: transform 0.3s ease; /* Add a transition for the transform property */
 }

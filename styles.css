@@ -621,7 +621,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .leaderboard-svg:hover {
-  transform: scale(1.1); /* Increase the scale on hover */
+  transform: scale(1.1) translateY(-5px); /* Increase the scale and move up slightly on hover */
 }
 
 .leaderboard-svgS {

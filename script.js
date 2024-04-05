@@ -39,6 +39,6 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
 
     // Adjust the position of the response messages and loader
     responseElement.style.marginLeft = '45px'; // Move the message 45px to the right
-    loader.style.marginLeft = '45px'; // Move the loader 45px to the right
+    loader.style.marginLeft = '20px'; // Move the loader 45px to the right
   }, 5000); // 5 seconds delay
 });

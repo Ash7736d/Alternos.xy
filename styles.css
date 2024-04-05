@@ -605,7 +605,6 @@ linearGradient#gradient stop:nth-child(3) {
 .leaderboard-svgS {
   width: 60px;
   height: 60px;
-  position: absolute; /* Position the icons absolutely */
   z-index: 9999; /* Set a high z-index to ensure the icons appear above other elements */
   transition: transform 0.3s ease; /* Add a transition for the transform property */
 }

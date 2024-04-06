@@ -549,6 +549,19 @@ linearGradient#gradient stop:nth-child(3) {
   margin-top: -5px;
 }
 
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  margin-right: 5px; /* Adjust margin as needed */
+}
+
+.user-score {
+  color: #fff; /* Set color as needed */
+}
+
 .line {
   color: #ffffff;
   padding: 0 1.20rem;

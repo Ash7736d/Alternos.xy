@@ -445,7 +445,7 @@ linearGradient#gradient stop:nth-child(3) {
   perspective: 100px;
   position: absolute; /* Use absolute positioning */
   top: 340px; /* Adjust as needed */
-  left: 57px; /* Adjust as needed */
+  left: 58px; /* Adjust as needed */
 }
 
 .loader::before {

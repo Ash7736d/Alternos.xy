@@ -552,6 +552,7 @@ linearGradient#gradient stop:nth-child(3) {
 /* new */
 .user-info {
   display: flex;
+  font-size: 13px;
   align-items: center;
 }
 

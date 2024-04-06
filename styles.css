@@ -541,34 +541,25 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 /* user leaderboard list */
-.user1, .user2, .user3, .user4, .user5, .user6, .user7, .user8, .user9, .user10 {
-  color: #148b9a;
-  padding: 0 1.25rem;
-  transition: transform 300ms ease;
-  z-index: 5;
-  margin-top: -5px;
-}
-
-/* new */
 .user-info {
   display: flex;
   font-size: 13px;
   align-items: center;
+  margin-top: 5px; /* Adjust spacing between users */
 }
 
 .user-name {
   color: #fff;
   z-index: 5;
-  margin-top: -5px
   margin-right: 10px; /* Adjust margin as needed */
 }
 
 .user-score {
   color: #fff; /* Set color as needed */
   z-index: 5;
-  margin-top: -5px
   margin-right: 10px; /* Adjust margin as needed */
 }
+/*user list ends */
 
 .notificationleaderboard:hover .notibodyleaderboard {
   transform: translateX(0.25rem)

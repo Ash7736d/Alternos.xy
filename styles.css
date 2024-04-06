@@ -541,22 +541,38 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 /* user leaderboard list */
-.leaderboard-user {
-  display: flex;
-  align-items: center;
-}
-
-.user-icon {
-  margin-right: 0.5rem;
-}
-
-.user-name {
+.user {
   color: #148b9a;
-  margin-right: 0.5rem;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+  margin-top: -5px;
 }
 
-.user-value {
+.user .icon {
+  margin-right: 5px;
+}
+
+.user .value {
+  margin-left: 5px;
+}
+
+.line {
   color: #ffffff;
+  padding: 0 1.20rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+  margin-left: 145px;
+  margin-top: -333px;
+}
+
+.line2 {
+  color: #ffffff;
+  padding: 0 1.20rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+  margin-left: 145px;
+  margin-top: -328px;
 }
 
 .notificationleaderboard:hover .notibodyleaderboard {

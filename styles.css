@@ -444,8 +444,8 @@ linearGradient#gradient stop:nth-child(3) {
   background-color: rgba(0,0,0,0.2);
   perspective: 100px;
   position: absolute; /* Use absolute positioning */
-  top: 200px; /* Adjust as needed */
-  left: 70px; /* Adjust as needed */
+  top: 260px; /* Adjust as needed */
+  left: 55px; /* Adjust as needed */
 }
 
 .loader::before {

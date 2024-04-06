@@ -609,3 +609,14 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 /* season icons & svgs */
+.season-icon {
+  position: absolute; /* Position the icon absolutely */
+  top: 20px; /* Adjust the top position as needed */
+  left: 20px; /* Adjust the left position as needed */
+  width: 50px; /* Set the width */
+  height: 50px; /* Set the height */
+  z-index: 9999; /* Set a high z-index to ensure the icon appears above other elements */
+  /* Add any other styles for the icon */
+  perspective: 100px; /* Add 3D effect */
+  transform: rotateX(45deg) rotateY(45deg); /* Apply 3D rotation */
+}

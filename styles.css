@@ -543,7 +543,7 @@ linearGradient#gradient stop:nth-child(3) {
 /* user leaderboard list */
 .user-info {
   display: flex;
-  font-size: 13px;
+  font-size: 16px;
   align-items: center;
   margin-top: 6px; /* Adjust spacing between users */
 }

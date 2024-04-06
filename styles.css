@@ -559,12 +559,6 @@ linearGradient#gradient stop:nth-child(3) {
   z-index: 5;
   margin-right: 10px; /* Adjust margin as needed */
 }
-
-.user-icon {
-  width: 13px; /* Adjust width as needed */
-  height: 13px; /* Adjust height as needed */
-  margin-right: 5px; /* Adjust margin as needed */
-}
 /*user list ends */
 
 .notificationleaderboard:hover .notibodyleaderboard {
@@ -609,3 +603,31 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 /* season icons & svgs */
+
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content {
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: red;
+}

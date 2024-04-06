@@ -501,7 +501,7 @@ linearGradient#gradient stop:nth-child(3) {
   inset: 0.0625rem;
   border-radius: 0.9375rem;
   background: #18181b;
-  z-index: 2
+  z-index: 2;
 }
 
 .notificationleaderboard:after {
@@ -516,7 +516,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .notificationleaderboard:hover:after {
-  transform: translateX(0.15rem)
+  transform: translateX(0.15rem);
 }
 
 .notititleleaderboard {
@@ -529,7 +529,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .notificationleaderboard:hover .notititleleaderboard {
-  transform: translateX(0.15rem)
+  transform: translateX(0.15rem);
 }
 
 .notibodyleaderboard {
@@ -541,34 +541,26 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 /* user leaderboard list */
-.user1, .user2, .user3, .user4, .user5, .user6, .user7, .user8, .user9, .user10 {
+.leaderboard-user {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon {
+  margin-right: 0.5rem;
+}
+
+.user-name {
   color: #148b9a;
-  padding: 0 1.25rem;
-  transition: transform 300ms ease;
-  z-index: 5;
-  margin-top: -5px;
+  margin-right: 0.5rem;
 }
 
-.line {
+.user-value {
   color: #ffffff;
-  padding: 0 1.20rem;
-  transition: transform 300ms ease;
-  z-index: 5;
-  margin-left: 145px;
-  margin-top: -333px;
-}
-
-.line2 {
-  color: #ffffff;
-  padding: 0 1.20rem;
-  transition: transform 300ms ease;
-  z-index: 5;
-  margin-left: 145px;
-  margin-top: -328px;
 }
 
 .notificationleaderboard:hover .notibodyleaderboard {
-  transform: translateX(0.25rem)
+  transform: translateX(0.25rem);
 }
 
 .notiglowleaderboard, .notiborderglowleaderboard {
@@ -590,11 +582,11 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .notificationleaderboard:hover .notiglowleaderboard {
-  opacity: 0.1
+  opacity: 0.1;
 }
 
 .notificationleaderboard:hover .notiborderglowleaderboard {
-  opacity: 0.1
+  opacity: 0.1;
 }
 
 .note {

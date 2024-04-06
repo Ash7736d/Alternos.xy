@@ -543,7 +543,7 @@ linearGradient#gradient stop:nth-child(3) {
 /* user leaderboard list */
 .user-info {
   display: flex;
-  font-size: 16px;
+  font-size: 17px;
   align-items: center;
   margin-top: 6px; /* Adjust spacing between users */
 }
@@ -551,18 +551,18 @@ linearGradient#gradient stop:nth-child(3) {
 .user-name {
   color: #fff;
   z-index: 5;
-  margin-right: 15px; /* Adjust margin as needed */
+  margin-right: 40px; /* Adjust margin as needed */
 }
 
 .user-score {
   color: #fff; /* Set color as needed */
   z-index: 5;
-  margin-right: 10px; /* Adjust margin as needed */
+  margin-right: 50px; /* Adjust margin as needed */
 }
 
 .user-icon {
-  width: 13px; /* Adjust width as needed */
-  height: 13px; /* Adjust height as needed */
+  width: 14px; /* Adjust width as needed */
+  height: 14px; /* Adjust height as needed */
   margin-right: 8px; /* Adjust margin as needed */
   z-index: 999; /* Ensure the icon appears above other elements */
 }

@@ -555,6 +555,8 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .user-name {
+  z-index: 5;
+  margin-top: -5px
   margin-right: 5px; /* Adjust margin as needed */
 }
 

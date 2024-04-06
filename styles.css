@@ -501,7 +501,7 @@ linearGradient#gradient stop:nth-child(3) {
   inset: 0.0625rem;
   border-radius: 0.9375rem;
   background: #18181b;
-  z-index: 2;
+  z-index: 2
 }
 
 .notificationleaderboard:after {
@@ -516,7 +516,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .notificationleaderboard:hover:after {
-  transform: translateX(0.15rem);
+  transform: translateX(0.15rem)
 }
 
 .notititleleaderboard {
@@ -529,7 +529,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .notificationleaderboard:hover .notititleleaderboard {
-  transform: translateX(0.15rem);
+  transform: translateX(0.15rem)
 }
 
 .notibodyleaderboard {
@@ -541,20 +541,12 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 /* user leaderboard list */
-.user {
+.user1, .user2, .user3, .user4, .user5, .user6, .user7, .user8, .user9, .user10 {
   color: #148b9a;
   padding: 0 1.25rem;
   transition: transform 300ms ease;
   z-index: 5;
   margin-top: -5px;
-}
-
-.user .icon {
-  margin-right: 5px;
-}
-
-.user .value {
-  margin-left: 5px;
 }
 
 .line {
@@ -576,7 +568,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .notificationleaderboard:hover .notibodyleaderboard {
-  transform: translateX(0.25rem);
+  transform: translateX(0.25rem)
 }
 
 .notiglowleaderboard, .notiborderglowleaderboard {
@@ -598,11 +590,11 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .notificationleaderboard:hover .notiglowleaderboard {
-  opacity: 0.1;
+  opacity: 0.1
 }
 
 .notificationleaderboard:hover .notiborderglowleaderboard {
-  opacity: 0.1;
+  opacity: 0.1
 }
 
 .note {

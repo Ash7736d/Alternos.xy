@@ -545,13 +545,13 @@ linearGradient#gradient stop:nth-child(3) {
   display: flex;
   font-size: 13px;
   align-items: center;
-  margin-top: 5px; /* Adjust spacing between users */
+  margin-top: 6px; /* Adjust spacing between users */
 }
 
 .user-name {
   color: #fff;
   z-index: 5;
-  margin-right: 10px; /* Adjust margin as needed */
+  margin-right: 15px; /* Adjust margin as needed */
 }
 
 .user-score {

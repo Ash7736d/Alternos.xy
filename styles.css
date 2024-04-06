@@ -557,6 +557,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .user-name {
+  color: #fff;
   z-index: 5;
   margin-top: -5px
   margin-right: 10px; /* Adjust margin as needed */
@@ -567,24 +568,6 @@ linearGradient#gradient stop:nth-child(3) {
   z-index: 5;
   margin-top: -5px
   margin-right: 10px; /* Adjust margin as needed */
-}
-
-.line {
-  color: #ffffff;
-  padding: 0 1.20rem;
-  transition: transform 300ms ease;
-  z-index: 5;
-  margin-left: 145px;
-  margin-top: -333px;
-}
-
-.line2 {
-  color: #ffffff;
-  padding: 0 1.20rem;
-  transition: transform 300ms ease;
-  z-index: 5;
-  margin-left: 145px;
-  margin-top: -328px;
 }
 
 .notificationleaderboard:hover .notibodyleaderboard {

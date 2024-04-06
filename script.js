@@ -28,8 +28,11 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
 
         // Proceed with redemption logic
         if (inputCode === 'TEST') {
-          responseElement.textContent = ' 𝙎𝙪𝙨𝙨𝙚𝙨𝙛𝙪𝙡𝙡𝙮 𝙍𝙚𝙙𝙚𝙚𝙢𝙚𝙙! 🎉';
+          responseElement.textContent = '𝙎𝙪𝙨𝙨𝙚𝙨𝙛𝙪𝙡𝙡𝙮 𝙍𝙚𝙙𝙚𝙚𝙢𝙚𝙙! 🎉';
           responseElement.style.color = 'green';
+
+          // Show the popup card message
+          document.getElementById("popup").style.display = "block";
         } else {
           responseElement.textContent = '𝙄𝙣𝙘𝙤𝙧𝙧𝙚𝙘𝙩 𝙘𝙤𝙙𝙚! ❌';
           responseElement.style.color = 'red';
@@ -40,4 +43,9 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
     // Adjust the position of the response messages
     responseElement.style.marginLeft = '45px'; // Move the message 45px to the right
   }, 5000); // 5 seconds delay
+});
+
+// Close the popup when the close button is clicked
+document.querySelector('.close-btn').addEventListener('click', function() {
+  document.getElementById("popup").style.display = "none";
 });

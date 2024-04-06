@@ -559,6 +559,12 @@ linearGradient#gradient stop:nth-child(3) {
   z-index: 5;
   margin-right: 10px; /* Adjust margin as needed */
 }
+
+.user-icon {
+  width: 13px; /* Adjust width as needed */
+  height: 13px; /* Adjust height as needed */
+  margin-right: 5px; /* Adjust margin as needed */
+}
 /*user list ends */
 
 .notificationleaderboard:hover .notibodyleaderboard {

@@ -27,7 +27,7 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
         localStorage.setItem('redeemedCodes', JSON.stringify(redeemedCodes));
 
         // Proceed with redemption logic
-        if (inputCode === 'REDEEM') {
+        if (inputCode === 'REGDB826') {
           responseElement.textContent = '𝙎𝙪𝙨𝙨𝙚𝙨𝙛𝙪𝙡𝙡𝙮 𝙍𝙚𝙙𝙚𝙚𝙢𝙚𝙙! 🎉';
           responseElement.style.color = 'green';
 

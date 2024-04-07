@@ -27,12 +27,12 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
         localStorage.setItem('redeemedCodes', JSON.stringify(redeemedCodes));
 
         // Proceed with redemption logic
-        if (inputCode === 'HDGHHDS') {
+        if (inputCode === 'djapl65') {
+          // Show the popup card message immediately
+          document.getElementById("popup").style.display = "block";
+
           responseElement.textContent = '𝗥𝗘𝗗𝗘𝗘𝗠𝗘𝗗 𝗦𝗨𝗦𝗦𝗘𝗦𝗙𝗨𝗟𝗟𝗬! 🎉';
           responseElement.style.color = 'white';
-
-          // Show the popup card message
-          document.getElementById("popup").style.display = "block";
         } else {
           responseElement.textContent = '𝗜𝗡𝗖𝗢𝗥𝗥𝗘𝗖𝗧 𝗖𝗢𝗗𝗘❌';
           responseElement.style.color = 'white';

@@ -342,7 +342,7 @@ linearGradient#gradient stop:nth-child(3) {
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -310px; /* Move right by approximately 2 inches */
-  margin-top: 630px; /* Move down by approximately 7 inches */
+  margin-top: 650px; /* Move down by approximately 7 inches */
   padding-bottom: 5px; /* Adjust the bottom padding as needed */
 }
 
@@ -648,7 +648,7 @@ linearGradient#gradient stop:nth-child(3) {
   color: #fff;
   cursor: pointer;
   background-color: #7d2ae8;
-  margin-top: -20px;
+  margin-top: -40px;
   z-index: 999;
   transition: all 0.2s ease;
 }

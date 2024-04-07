@@ -648,7 +648,8 @@ linearGradient#gradient stop:nth-child(3) {
   color: #fff;
   cursor: pointer;
   background-color: #7d2ae8;
-  margin-top: -270px;
+  margin-left: 26px;
+  margin-top: -200px;
   z-index: 999;
   transition: all 0.2s ease;
 }

@@ -648,7 +648,7 @@ linearGradient#gradient stop:nth-child(3) {
   color: #fff;
   cursor: pointer;
   background-color: #7d2ae8;
-  margin-left: 26px;
+  margin-left: 20px;
   margin-top: -200px;
   z-index: 999;
   transition: all 0.2s ease;
@@ -737,6 +737,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .iconshop {
+  margin-left: 26px
   width: 60%;
   height: 60%;
   z-index: 999;

@@ -607,8 +607,6 @@ button {
   color: #090909;
   padding: 0.7em 1.7em;
   font-size: 18px;
-  width: 30%;
-  height: 15%;
   z-index: 999;
   border-radius: 0.5em;
   background: #e8e8e8;
@@ -624,8 +622,8 @@ button:active {
 }
 
 .iconshop {
-  width: 15%;
-  height: 15%;
+  width: 20%;
+  height: 20%;
   z-index: 999;
 }
 

@@ -641,7 +641,7 @@ linearGradient#gradient stop:nth-child(3) {
 
 .button {
   position: relative;
-  padding: 10px 22px;
+  padding: 10px 20px;
   border-radius: 6px;
   border: none;
   color: #fff;

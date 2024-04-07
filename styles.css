@@ -495,38 +495,6 @@ linearGradient#gradient stop:nth-child(3) {
   margin-top: 750px; /* Move down by approximately 7 inches */
 }
 
-.user-info {
-  display: flex;
-  font-size: 15px;
-  align-items: center;
-  margin-top: 4px; /* Adjust spacing between users */
-}
-
-.user-name {
-  color: #fff;
-  margin-right: 5px; /* Adjust margin as needed */
-}
-
-.user-score {
-  color: #1d4979; /* Set color as needed */
-  margin-right: 5px; /* Adjust margin as needed */
-}
-
-.user-icon {
-  width: 20px; /* Adjust width as needed */
-  height: 20px; /* Adjust height as needed */
-  margin-right: 5px; /* Adjust margin as needed */
-}
-
-.notificationleaderboard:before {
-  position: absolute;
-  content: "";
-  inset: 0.0625rem;
-  border-radius: 0.9375rem;
-  background: #18181b;
-  z-index: 2
-}
-
 .notificationleaderboard:after {
   position: absolute;
   content: "";

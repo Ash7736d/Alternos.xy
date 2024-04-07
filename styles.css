@@ -480,8 +480,8 @@ linearGradient#gradient stop:nth-child(3) {
   flex-direction: column;
   isolation: isolate;
   position: relative;
-  width: 19.5rem;
-  height: 28rem;
+  width: 19.4rem;
+  height: 27rem;
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
@@ -491,9 +491,8 @@ linearGradient#gradient stop:nth-child(3) {
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
-  margin-left: auto; /* Center the leaderboard horizontally */
-  margin-right: auto; /* Center the leaderboard horizontally */
-  margin-top: 750px; /* Adjust vertical position as needed */
+  margin-left: -312px; /* Move right by approximately 2 inches */
+  margin-top: 750px; /* Move down by approximately 7 inches */
 }
 
 .user-info {

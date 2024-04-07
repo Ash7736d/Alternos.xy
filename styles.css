@@ -500,11 +500,11 @@ linearGradient#gradient stop:nth-child(3) {
   justify-content: space-between;
   align-items: center;
   margin-top: 3px; /* Adjust spacing between users */
+  margin-left: -23px
 }
 
 .user-name,
 .user-score {
-  margin-left: 22px
   color: #fff;
   z-index: 999;
 }
@@ -514,6 +514,7 @@ linearGradient#gradient stop:nth-child(3) {
   width: 18px; /* Adjust width as needed */
   height: 18px; /* Adjust height as needed */
   margin-right: 8px; /* Adjust margin as needed */
+  margin-left: -140px
 }
 
 .notificationleaderboard:before {

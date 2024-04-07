@@ -497,23 +497,25 @@ linearGradient#gradient stop:nth-child(3) {
 
 .user-info {
   display: flex;
-  justify-content: space-between;
+  font-size: 15px;
   align-items: center;
-  margin-top: 3px; /* Adjust spacing between users */
-  margin-left: -23px
+  margin-top: 4px; /* Adjust spacing between users */
 }
 
-.user-name,
-.user-score {
+.user-name {
   color: #fff;
-  z-index: 999;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.user-score {
+  color: #1d4979; /* Set color as needed */
 }
 
 .user-icon {
+  width: 19px; /* Adjust width as needed */
+  height: 19px; /* Adjust height as needed */
+  margin-right: 8px; /* Adjust margin as needed */
   z-index: 999;
-  width: 18px; /* Adjust width as needed */
-  height: 18px; /* Adjust height as needed */
-  margin-right: 100px; /* Adjust margin as needed */
 }
 
 .notificationleaderboard:before {

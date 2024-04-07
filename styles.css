@@ -475,39 +475,13 @@ linearGradient#gradient stop:nth-child(3) {
 
 /* 3rd card notification leaderboard */
 
-.user-info {
-  display: flex;
-  font-size: 17px;
-  align-items: center;
-  margin-top: 6px; /* Adjust spacing between users */
-}
-
-.user-name {
-  color: #fff;
-  z-index: 999;
-  margin-right: 60px; /* Adjust margin to move users to the right */
-}
-
-.user-score {
-  color: #ff0909; /* Set color as needed */
-  z-index: 999;
-  margin-right: 60px; /* Adjust margin to move scores to the right */
-}
-
-.user-icon {
-  width: 18px; /* Adjust width as needed */
-  height: 18px; /* Adjust height as needed */
-  margin-right: 8px; /* Adjust margin as needed */
-  z-index: 999; /* Ensure the icon appears above other elements */
-}
-
 .notificationleaderboard {
   display: flex;
   flex-direction: column;
   isolation: isolate;
   position: relative;
-  width: 19.4rem;
-  height: 24rem; /* Adjusted height to fit within the card */
+  width: 19.5rem;
+  height: 28rem;
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
@@ -517,9 +491,28 @@ linearGradient#gradient stop:nth-child(3) {
   --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
-  /* Adjusted margin to fit within the card */
-  margin-left: -312px; /* Move right by approximately 2 inches */
-  margin-top: 750px; /* Move down by approximately 7 inches */
+  margin-left: auto; /* Center the leaderboard horizontally */
+  margin-right: auto; /* Center the leaderboard horizontally */
+  margin-top: 750px; /* Adjust vertical position as needed */
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px; /* Adjust spacing between users */
+}
+
+.user-name,
+.user-score {
+  color: #fff;
+  z-index: 999;
+}
+
+.user-icon {
+  width: 18px; /* Adjust width as needed */
+  height: 18px; /* Adjust height as needed */
+  margin-right: 8px; /* Adjust margin as needed */
 }
 
 .notificationleaderboard:before {

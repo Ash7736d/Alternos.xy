@@ -499,11 +499,12 @@ linearGradient#gradient stop:nth-child(3) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 4px; /* Adjust spacing between users */
+  margin-top: 3px; /* Adjust spacing between users */
 }
 
 .user-name,
 .user-score {
+  margin-left: 22px
   color: #fff;
   z-index: 999;
 }

@@ -643,6 +643,7 @@ linearGradient#gradient stop:nth-child(3) {
   position: relative;
   padding: 10px 20px;
   border-radius: 6px;
+  width: 30%;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -662,7 +663,7 @@ linearGradient#gradient stop:nth-child(3) {
   left: 50%;
   height: 100%;
   transform: translateX(-50%);
-  z-index: -1000;
+  z-index: 999;
   background-repeat: no-repeat;
 }
 

@@ -737,9 +737,8 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .iconshop {
-  margin-left: 26px
-  width: 60%;
-  height: 60%;
+  width: 50%;
+  height: 50%;
   z-index: 999;
 }
 

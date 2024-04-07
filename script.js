@@ -13,14 +13,14 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
   // Delay showing the original message for 3 seconds
   setTimeout(function() {
     if (inputCode === "") {
-      responseElement.textContent = '𝙄𝙣𝙥𝙪𝙩 𝙛𝙞𝙚𝙡𝙙 𝙘𝙖𝙣𝙣𝙤𝙩 𝙗𝙚 𝙚𝙢𝙥𝙩𝙮! ⚠️'; // Show error message if input field is empty
+      responseElement.textContent = '𝗜𝗡𝗣𝗨𝗧 𝗙𝗜𝗘𝗟𝗗 𝗖𝗔𝗡𝗡𝗢𝗧 𝗕𝗘 𝗘𝗠𝗣𝗧𝗬!'; // Show error message if input field is empty
       responseElement.style.color = 'white';
     } else {
       // Check if the input code has already been redeemed by the user
       const redeemedCodes = localStorage.getItem('redeemedCodes') ? JSON.parse(localStorage.getItem('redeemedCodes')) : [];
       if (redeemedCodes.includes(inputCode)) {
-        responseElement.textContent = '𝙏𝙝𝙞𝙨 𝙘𝙤𝙙𝙚 𝙝𝙖𝙨 𝙖𝙡𝙧𝙚𝙖𝙙𝙮 𝙧𝙚𝙙𝙚𝙚𝙢𝙚𝙙! ❌'; // Show error message if code has already been redeemed
-        responseElement.style.color = 'red';
+        responseElement.textContent = '𝗧𝗛𝗘 𝗖𝗢𝗗𝗘 𝗛𝗔𝗦 𝗔𝗟𝗥𝗘𝗔𝗗𝗬 𝗕𝗘𝗘𝗡 𝗥𝗘𝗗𝗘𝗘𝗠𝗘𝗗! '; // Show error message if code has already been redeemed
+        responseElement.style.color = 'white';
       } else {
         // Mark the code as redeemed for this user
         redeemedCodes.push(inputCode);
@@ -28,14 +28,14 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
 
         // Proceed with redemption logic
         if (inputCode === 'HDGHHDS') {
-          responseElement.textContent = '𝙎𝙪𝙨𝙨𝙚𝙨𝙛𝙪𝙡𝙡𝙮 𝙍𝙚𝙙𝙚𝙚𝙢𝙚𝙙! 🎉';
-          responseElement.style.color = 'green';
+          responseElement.textContent = '𝗥𝗘𝗗𝗘𝗘𝗠𝗘𝗗 𝗦𝗨𝗦𝗦𝗘𝗦𝗙𝗨𝗟𝗟𝗬! 🎉';
+          responseElement.style.color = 'white';
 
           // Show the popup card message
           document.getElementById("popup").style.display = "block";
         } else {
-          responseElement.textContent = '𝙄𝙣𝙘𝙤𝙧𝙧𝙚𝙘𝙩 𝙘𝙤𝙙𝙚! ❌';
-          responseElement.style.color = 'red';
+          responseElement.textContent = '𝗜𝗡𝗖𝗢𝗥𝗥𝗘𝗖𝗧 𝗖𝗢𝗗𝗘❌';
+          responseElement.style.color = 'white';
         }
       }
     }

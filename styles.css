@@ -495,6 +495,15 @@ linearGradient#gradient stop:nth-child(3) {
   margin-top: 750px; /* Move down by approximately 7 inches */
 }
 
+.notificationleaderboard:before {
+  position: absolute;
+  content: "";
+  inset: 0.0625rem;
+  border-radius: 0.9375rem;
+  background: #18181b;
+  z-index: 2
+}
+
 .notificationleaderboard:after {
   position: absolute;
   content: "";
@@ -529,6 +538,33 @@ linearGradient#gradient stop:nth-child(3) {
   transition: transform 300ms ease;
   z-index: 5;
   margin-bottom: 50px;
+}
+
+/* user leaderboard list */
+.user1, .user2, .user3, .user4, .user5, .user6, .user7, .user8, .user9, .user10 {
+  color: #148b9a;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+  margin-top: -5px;
+}
+
+.line {
+  color: #ffffff;
+  padding: 0 1.20rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+  margin-left: 145px;
+  margin-top: -333px;
+}
+
+.line2 {
+  color: #ffffff;
+  padding: 0 1.20rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+  margin-left: 145px;
+  margin-top: -328px;
 }
 
 .notificationleaderboard:hover .notibodyleaderboard {
@@ -622,7 +658,7 @@ linearGradient#gradient stop:nth-child(3) {
 .button:after {
   position: absolute;
   content: "";
-  width: 150%;
+  width: 100%;
   left: 50%;
   height: 100%;
   transform: translateX(-50%);

@@ -555,7 +555,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .user-score {
-  color: #ff0909; /* Set color as needed */
+  color: #449296; /* Set color as needed */
   z-index: 999;
   margin-right: 136px; /* Adjust margin to move scores to the right */
 }

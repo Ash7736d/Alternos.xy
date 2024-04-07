@@ -545,19 +545,19 @@ linearGradient#gradient stop:nth-child(3) {
   display: flex;
   font-size: 17px;
   align-items: center;
-  margin-top: 3px; /* Adjust spacing between users */
+  margin-top: 6px; /* Adjust spacing between users */
 }
 
 .user-name {
   color: #fff;
   z-index: 999;
-  margin-right: 136px; /* Adjust margin to move users to the right */
+  margin-right: 60px; /* Adjust margin as needed */
 }
 
 .user-score {
-  color: #449296; /* Set color as needed */
+  color: #1d4979; /* Set color as needed */
   z-index: 999;
-  margin-right: 50px; /* Adjust margin to move scores to the right */
+  margin-right: 120px; /* Adjust margin as needed */
 }
 
 .user-icon {

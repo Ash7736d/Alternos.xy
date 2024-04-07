@@ -20,7 +20,7 @@ body {
   border-radius: 10px;
   padding: 2rem;
   perspective: 50px;
-  margin-top: 15px; /* increase to move down, decrease for up*/
+  margin-top: 50px; /* increase to move down, decrease for up*/
   color: #ffffff; /* changed text color to white */
   box-shadow: 0 .25rem .25rem rgba(0,0,0,0.9),
     0 0 1rem rgba(0,0,0,0.9);
@@ -235,7 +235,7 @@ linearGradient#gradient stop:nth-child(3) {
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -312px; /* Move right by approximately 2 inches */
-  margin-top: 440px; /* Move down by approximately 7 inches */
+  margin-top: 490px; /* Move down by approximately 7 inches */
 }
 
 .notification:before {
@@ -342,7 +342,7 @@ linearGradient#gradient stop:nth-child(3) {
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -310px; /* Move right by approximately 2 inches */
-  margin-top: 580px; /* Move down by approximately 7 inches */
+  margin-top: 620px; /* Move down by approximately 7 inches */
   padding-bottom: 5px; /* Adjust the bottom padding as needed */
 }
 
@@ -492,7 +492,7 @@ linearGradient#gradient stop:nth-child(3) {
   --color: #32a6ff;
   box-shadow: 0 0 10px 0 #000000; /* Add box shadow */
   margin-left: -312px; /* Move right by approximately 2 inches */
-  margin-top: 750px; /* Move down by approximately 7 inches */
+  margin-top: 800px; /* Move down by approximately 7 inches */
 }
 
 .notificationleaderboard:before {
@@ -735,8 +735,8 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .iconshop {
-  width: 20%;
-  height: 20%;
+  width: 30%;
+  height: 30%;
   z-index: 999;
 }
 

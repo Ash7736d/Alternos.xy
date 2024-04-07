@@ -504,18 +504,18 @@ linearGradient#gradient stop:nth-child(3) {
 
 .user-name {
   color: #fff;
-  margin-right: 10px; /* Adjust margin as needed */
+  margin-right: 5px; /* Adjust margin as needed */
 }
 
 .user-score {
   color: #1d4979; /* Set color as needed */
+  margin-right: 5px; /* Adjust margin as needed */
 }
 
 .user-icon {
-  width: 19px; /* Adjust width as needed */
-  height: 19px; /* Adjust height as needed */
-  margin-right: 8px; /* Adjust margin as needed */
-  z-index: 999;
+  width: 20px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  margin-right: 5px; /* Adjust margin as needed */
 }
 
 .notificationleaderboard:before {

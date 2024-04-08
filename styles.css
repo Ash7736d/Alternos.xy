@@ -663,7 +663,7 @@ linearGradient#gradient stop:nth-child(3) {
   content: "";
   width: 100%;
   left: 50%;
-  height: 100%;
+  height: 150%;
   transform: translateX(-50%);
   background-repeat: no-repeat;
   z-index: 999;

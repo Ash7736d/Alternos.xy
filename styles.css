@@ -645,12 +645,12 @@ linearGradient#gradient stop:nth-child(3) {
 .button {
   position: absolute;
   padding: 10px 20px;
-  border-radius: 6px;
+  border-radius: 50px;
   width: 30%;
   border: 2px solid #fff; /* White outline */
   color: #fff;
   cursor: pointer;
-  background-color: #17141d;
+  background-color: #ffffff;
   z-index: 1000;
   transition: all 0.2s ease;
   /* Adjust position */

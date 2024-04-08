@@ -645,7 +645,7 @@ linearGradient#gradient stop:nth-child(3) {
 .button {
   position: absolute;
   padding: 10px 20px;
-  border-radius: 25%;
+  border-radius: 60%;
   perspective: 5px;
   width: 30%;
   border: 4px solid #8e8e8e; /* White outline */
@@ -656,7 +656,7 @@ linearGradient#gradient stop:nth-child(3) {
   transition: all 0.2s ease;
   /* Adjust position */
   left: -10px; /* Move 20px to the right */
-  top: -20px; /* Move 10px up */
+  top: -50px; /* Move 10px up */
 }
 
 .button:active {

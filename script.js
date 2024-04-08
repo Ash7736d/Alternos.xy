@@ -13,30 +13,22 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
   // Delay showing the original message for 3 seconds
   setTimeout(function() {
     if (inputCode === "") {
-      responseElement.textContent = '𝗜𝗡𝗣𝗨𝗧 𝗙𝗜𝗘𝗟𝗗 𝗖𝗔𝗡𝗡𝗢𝗧 𝗕𝗘 𝗘𝗠𝗣𝗧𝗬!'; // Show error message if input field is empty
+      responseElement.textContent = '𝗜𝗡𝗣𝗨𝗧 𝗙𝗜𝗘𝗟𝗗 𝗖𝗔𝗡𝗡𝗢𝗧 𝗕𝗘 𝗘𝗠𝗣𝗧𝗘𝗗𝗬!'; // Show error message if input field is empty
       responseElement.style.color = 'white';
     } else {
-      // Check if the input code has already been redeemed by the user
-      const redeemedCodes = localStorage.getItem('redeemedCodes') ? JSON.parse(localStorage.getItem('redeemedCodes')) : [];
-      if (redeemedCodes.includes(inputCode)) {
-        responseElement.textContent = '𝗧𝗛𝗘 𝗖𝗢𝗗𝗘 𝗛𝗔𝗦 𝗔𝗟𝗥𝗘𝗔𝗗𝗬 𝗕𝗘𝗘𝗡 𝗥𝗘𝗗𝗘𝗘𝗠𝗘𝗗! '; // Show error message if code has already been redeemed
+      // Define your secret codes
+      const secretCodes = [process.env.REDEEM_CODE1, process.env.REDEEM_CODE2]; // Replace process.env.REDEEM_CODE1 and process.env.REDEEM_CODE2 with your actual secret names
+      
+      // Check if the input code matches any of the secret codes
+      // Show the popup card message immediately
+        document.getElementById("popup").style.display = "block";
+      if (secretCodes.includes(inputCode)) {
+        responseElement.textContent = '𝗥𝗘𝗗𝗘𝗘𝗠𝗘𝗗 𝗦𝗨𝗦𝗦𝗘𝗦𝗙𝗨𝗟𝗟𝗬! 🎉';
         responseElement.style.color = 'white';
+        
       } else {
-        // Mark the code as redeemed for this user
-        redeemedCodes.push(inputCode);
-        localStorage.setItem('redeemedCodes', JSON.stringify(redeemedCodes));
-
-        // Proceed with redemption logic
-        if (inputCode === 'djapl65') {
-          // Show the popup card message immediately
-          document.getElementById("popup").style.display = "block";
-
-          responseElement.textContent = '𝗥𝗘𝗗𝗘𝗘𝗠𝗘𝗗 𝗦𝗨𝗦𝗦𝗘𝗦𝗙𝗨𝗟𝗟𝗬! 🎉';
-          responseElement.style.color = 'white';
-        } else {
-          responseElement.textContent = '𝗜𝗡𝗖𝗢𝗥𝗥𝗘𝗖𝗧 𝗖𝗢𝗗𝗘❌';
-          responseElement.style.color = 'white';
-        }
+        responseElement.textContent = '𝗜𝗡𝗖𝗢𝗥𝗥𝗘𝗖𝗧 𝗖𝗢𝗗𝗘❌';
+        responseElement.style.color = 'white';
       }
     }
 

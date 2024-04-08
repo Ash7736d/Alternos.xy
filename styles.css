@@ -652,6 +652,9 @@ linearGradient#gradient stop:nth-child(3) {
   background-color: #7d2ae8;
   z-index: 999;
   transition: all 0.2s ease;
+  /* Adjust position */
+  left: 20px; /* Move 20px to the right */
+  top: -10px; /* Move 10px up */
 }
 
 .button:active {

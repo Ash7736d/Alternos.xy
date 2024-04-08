@@ -621,6 +621,7 @@ linearGradient#gradient stop:nth-child(3) {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
 }
 
 .popup-content {
@@ -662,7 +663,7 @@ linearGradient#gradient stop:nth-child(3) {
   position: absolute;
   content: "";
   width: 100%;
-  left: 50%;
+  left: -40%;
   height: 150%;
   transform: translateX(-50%);
   background-repeat: no-repeat;

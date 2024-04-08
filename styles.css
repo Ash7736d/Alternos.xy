@@ -650,12 +650,12 @@ linearGradient#gradient stop:nth-child(3) {
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: #7d2ae8;
+  background-color: #17141d;
   z-index: 1000;
   transition: all 0.2s ease;
   /* Adjust position */
   left: -50px; /* Move 20px to the right */
-  top: -50px; /* Move 10px up */
+  top: 20px; /* Move 10px up */
 }
 
 .button:active {

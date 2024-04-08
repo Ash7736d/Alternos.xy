@@ -1,3 +1,5 @@
+import codes from './codes.js';
+
 document.querySelector('.rainbow-hover').addEventListener('click', function() {
   const inputCode = document.querySelector('.input').value.trim(); // Get input value and remove leading/trailing spaces
   const responseElement = document.querySelector('.response');
@@ -16,16 +18,13 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
       responseElement.textContent = '𝗜𝗡𝗣𝗨𝗧 𝗙𝗜𝗘𝗟𝗗 𝗖𝗔𝗡𝗡𝗢𝗧 𝗕𝗘 𝗘𝗠𝗣𝗧𝗘𝗗𝗬!'; // Show error message if input field is empty
       responseElement.style.color = 'white';
     } else {
-      // Define your secret codes
-      const secretCodes = [process.env.REDEEM_CODE1, process.env.REDEEM_CODE2]; // Replace process.env.REDEEM_CODE1 and process.env.REDEEM_CODE2 with your actual secret names
-      
-      // Check if the input code matches any of the secret codes
-      // Show the popup card message immediately
-        document.getElementById("popup").style.display = "block";
-      if (secretCodes.includes(inputCode)) {
+      // Check if the input code matches any of the codes
+      if (codes.includes(inputCode)) {
         responseElement.textContent = '𝗥𝗘𝗗𝗘𝗘𝗠𝗘𝗗 𝗦𝗨𝗦𝗦𝗘𝗦𝗙𝗨𝗟𝗟𝗬! 🎉';
         responseElement.style.color = 'white';
         
+        // Show the popup card message immediately
+        document.getElementById("popup").style.display = "block";
       } else {
         responseElement.textContent = '𝗜𝗡𝗖𝗢𝗥𝗥𝗘𝗖𝗧 𝗖𝗢𝗗𝗘❌';
         responseElement.style.color = 'white';

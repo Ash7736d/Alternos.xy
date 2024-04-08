@@ -20,7 +20,7 @@ body {
   border-radius: 10px;
   padding: 2rem;
   perspective: 50px;
-  margin-top: 60px; /* increase to move down, decrease for up*/
+  margin-top: 50px; /* increase to move down, decrease for up*/
   color: #ffffff; /* changed text color to white */
   box-shadow: 0 .25rem .25rem rgba(0,0,0,0.9),
     0 0 1rem rgba(0,0,0,0.9);
@@ -655,8 +655,8 @@ linearGradient#gradient stop:nth-child(3) {
   z-index: 1000;
   transition: all 0.2s ease;
   /* Adjust position */
-  left: -10px; /* Move 20px to the right */
-  top: 10px; /* Move 10px up */
+  left: 10px; /* Move 20px to the right */
+  top: 5px; /* Move 10px up */
 }
 
 .button:active {
@@ -667,9 +667,9 @@ linearGradient#gradient stop:nth-child(3) {
 .button:after {
   position: absolute;
   content: "";
-  width: 100%;
+  width: 90%;
   left: -40%;
-  height: 120%;
+  height: 90%;
   transform: translateX(-50%);
   background-repeat: no-repeat;
   z-index: 999;

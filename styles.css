@@ -747,3 +747,7 @@ linearGradient#gradient stop:nth-child(3) {
   z-index: 999;
 }
 
+.season {
+  width: 15%;
+  height: 15%;
+}

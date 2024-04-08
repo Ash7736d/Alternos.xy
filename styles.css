@@ -205,7 +205,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .sp {
-  background: linear-gradient(90deg, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+  background: linear-gradient(90deg, #030614, #030614, #030614, #030614, #030614);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -645,7 +645,7 @@ linearGradient#gradient stop:nth-child(3) {
 .button {
   position: absolute;
   padding: 10px 20px;
-  border-radius: 100px;
+  border-radius: 50%;
   width: 30%;
   border: 4px solid #8e8e8e; /* White outline */
   color: #fff;
@@ -654,8 +654,8 @@ linearGradient#gradient stop:nth-child(3) {
   z-index: 1000;
   transition: all 0.2s ease;
   /* Adjust position */
-  left: 10px; /* Move 20px to the right */
-  top: 20px; /* Move 10px up */
+  left: -10px; /* Move 20px to the right */
+  top: -20px; /* Move 10px up */
 }
 
 .button:active {
@@ -748,7 +748,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .season {
-  width: 10%;
-  height: 10%;
+  width: 20%;
+  height: 20%;
   z-index: 999;
 }

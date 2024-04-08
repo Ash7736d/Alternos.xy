@@ -647,14 +647,14 @@ linearGradient#gradient stop:nth-child(3) {
   padding: 10px 20px;
   border-radius: 6px;
   width: 30%;
-  border: none;
+  border: 2px solid #fff; /* White outline */
   color: #fff;
   cursor: pointer;
   background-color: #17141d;
   z-index: 1000;
   transition: all 0.2s ease;
   /* Adjust position */
-  left: -50px; /* Move 20px to the right */
+  left: 10px; /* Move 20px to the right */
   top: 20px; /* Move 10px up */
 }
 

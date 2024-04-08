@@ -44,7 +44,7 @@ body {
 }
 
 .card__title {
-  margin-top: 45px;
+  margin-top: 65px;
   margin-bottom: 10px;
   margin-left: 22px; /* Adjust the left margin as needed */
   font-weight: 800;
@@ -61,7 +61,7 @@ body {
 }
 
 .card__description {
-  margin-top: 20px; /* changed margin-top to 10px */
+  margin-top: 30px; /* changed margin-top to 10px */
   margin-left: 80px; /* Adjust the left margin as needed */
   font-weight: 400; /* changed font weight to normal */
   letter-spacing: normal; /* removed letter-spacing */

@@ -16,7 +16,7 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
   // Delay showing the original message for 3 seconds
   setTimeout(function() {
     if (inputCode === "") {
-      responseElement.textContent = '𝗜𝗡𝗣𝗨𝗧 𝗙𝗜𝗘𝗟𝗗 𝗖𝗔𝗡𝗡𝗢𝗧 𝗕𝗘 𝗘𝗠𝗣𝗧𝗬!'; // Show error message if input field is empty
+      responseElement.textContent = '𝗜𝗡𝗣𝗨𝗧 𝗖𝗔𝗡𝗡𝗢𝗧 𝗕𝗘 𝗘𝗠𝗣𝗧𝗬!'; // Show error message if input field is empty
       responseElement.style.color = 'white';
     } else {
       // Check if the input code is among the available codes

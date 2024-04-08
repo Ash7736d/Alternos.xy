@@ -152,7 +152,7 @@ linearGradient#gradient stop:nth-child(3) {
  /* code input container */
 .input {
   display: block;
-  background: #212121;
+  color: #212121;
   width: calc(100% - 25px); /* Subtract padding from width */
   max-width: 170px;
   height: 10px;

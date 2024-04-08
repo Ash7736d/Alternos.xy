@@ -16,7 +16,7 @@ body {
   position: relative;
   background: #17141d;
   width: 250px;
-  height: 370px;
+  height: 375px;
   border-radius: 10px;
   padding: 2rem;
   perspective: 50px;
@@ -163,7 +163,7 @@ linearGradient#gradient stop:nth-child(3) {
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0px 0px 20px -18px;
   margin-left: 26px; /* Move right by approximately 2 inches */
-  margin-top: 135px; /* Move down by 1 inch */
+  margin-top: 150px; /* Move down by 1 inch */
   background-color: #212121; /* Change background color */
   border-radius: 5px; /* Adjust border radius */
 }
@@ -199,7 +199,7 @@ linearGradient#gradient stop:nth-child(3) {
   transform-style: preserve-3d;
   transform: scale(var(--s, 1)) perspective(600px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
   perspective: 5px;
-  margin-top: 34px; /* Move down by 1 line space */
+  margin-top: 45px; /* Move down by 1 line space */
   margin-left: 65px; 
   transition: transform 0.1s;
 }
@@ -615,14 +615,14 @@ linearGradient#gradient stop:nth-child(3) {
   .popup {
     display: none;
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: -40%;
+    left: 80%;
     transform: translate(-50%, -50%);
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    z-index: 999;
+    z-index: 1000;
 }
 
 .popup-content {
@@ -648,7 +648,7 @@ linearGradient#gradient stop:nth-child(3) {
   border-radius: 50px;
   perspective: 5px;
   width: 30%;
-  border: 4px solid #8e8e8e; /* White outline */
+  border: 2px solid #8e8e8e; /* White outline */
   color: #fff;
   cursor: pointer;
   background-color: #ffffff;
@@ -656,7 +656,7 @@ linearGradient#gradient stop:nth-child(3) {
   transition: all 0.2s ease;
   /* Adjust position */
   left: -10px; /* Move 20px to the right */
-  top: -50px; /* Move 10px up */
+  top: 10px; /* Move 10px up */
 }
 
 .button:active {

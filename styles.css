@@ -16,7 +16,7 @@ body {
   position: relative;
   background: #17141d;
   width: 250px;
-  height: 350px;
+  height: 355px;
   border-radius: 10px;
   padding: 2rem;
   perspective: 50px;
@@ -645,7 +645,7 @@ linearGradient#gradient stop:nth-child(3) {
 .button {
   position: absolute;
   padding: 10px 20px;
-  border-radius: 60%;
+  border-radius: 50px;
   perspective: 5px;
   width: 30%;
   border: 4px solid #8e8e8e; /* White outline */
@@ -669,7 +669,7 @@ linearGradient#gradient stop:nth-child(3) {
   content: "";
   width: 100%;
   left: -40%;
-  height: 150%;
+  height: 120%;
   transform: translateX(-50%);
   background-repeat: no-repeat;
   z-index: 999;

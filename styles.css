@@ -25,6 +25,7 @@ body {
   box-shadow: 0 .25rem .25rem rgba(0,0,0,0.9),
     0 0 1rem rgba(0,0,0,0.9);
   overflow: hidden;
+  z-index: 1;
   margin-bottom: 20px;
 }
 
@@ -164,7 +165,7 @@ linearGradient#gradient stop:nth-child(3) {
   margin-left: 26px; /* Move right by approximately 2 inches */
   margin-top: 135px; /* Move down by 1 inch */
   background-color: #212121; /* Change background color */
-  border-radius: 10px; /* Adjust border radius */
+  border-radius: 5px; /* Adjust border radius */
 }
 
 .input:hover {
@@ -642,7 +643,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .button {
-  position: relative;
+  position: absolute;
   padding: 10px 20px;
   border-radius: 6px;
   width: 30%;
@@ -650,7 +651,7 @@ linearGradient#gradient stop:nth-child(3) {
   color: #fff;
   cursor: pointer;
   background-color: #7d2ae8;
-  z-index: 999;
+  z-index: 1000;
   transition: all 0.2s ease;
   /* Adjust position */
   left: -50px; /* Move 20px to the right */

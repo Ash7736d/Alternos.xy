@@ -17,6 +17,7 @@ body {
   transform-style: preserve-3d;
   transition: 0.5s all;
   transform: rotateX(-25deg) rotateY(20deg);
+  z-index: 1;
 }
 
 .objchild {
@@ -181,7 +182,7 @@ body {
   width: 70%; /* Adjust the size as needed */
   height: 70%; /* Adjust the size as needed */
   object-fit: contain; /* Keep the aspect ratio */
-  z-index: 999;
+  z-index: 100;
 }
 
 /* cards */
@@ -193,6 +194,7 @@ body {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Adjust the shadow as needed */
   perspective: 50px;
-  margin-left: 100px;
+  margin-left: 150px;
+  z-index: 999;
   margin: 20px; /* Adjust the margin as needed */
 }

@@ -1,1 +1,5 @@
-permalink: /shop/
+gems:
+  - jekyll-redirect-from
+
+plugins:
+  - jekyll-redirect-from

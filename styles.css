@@ -647,12 +647,12 @@ linearGradient#gradient stop:nth-child(3) {
   padding: 10px 20px;
   border-radius: 50%;
   perspective: 5px;
-  height: 20%;
+  height: 10%;
   width: 20%;
   border: 2px solid #8e8e8e; /* White outline */
   color: #fff;
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: transparent !important; /* Make the background transparent */
   z-index: 1000;
   transition: all 0.2s ease;
   /* Adjust position */

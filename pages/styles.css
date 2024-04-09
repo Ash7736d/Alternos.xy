@@ -10,7 +10,7 @@ body {
 
 /* home button */
 
-.buttonn {
+.button {
   position: absolute;
   padding: 10px 20px;
   border-radius: 50%;
@@ -109,7 +109,7 @@ body {
       110% 10%;
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
-}
+ }
 
   /* icons */
 .iconhome {

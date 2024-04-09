@@ -649,7 +649,6 @@ linearGradient#gradient stop:nth-child(3) {
   perspective: 5px;
   height: 10%;
   width: 20%;
-  border: 2px solid #8e8e8e; /* White outline */
   color: #fff;
   cursor: pointer;
   background-color: transparent !important; /* Make the background transparent */

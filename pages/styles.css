@@ -113,16 +113,16 @@ body {
 
   /* icons */
 .iconshop {
-  width: 90%; /* Adjust the size as needed */
-  height: 90%; /* Adjust the size as needed */
+  width: 70%; /* Adjust the size as needed */
+  height: 70%; /* Adjust the size as needed */
   object-fit: contain; /* Keep the aspect ratio */
-  z-index: 100;
+  z-index: 200;
 }
 
 /* cards */
 
 .card {
-  width: 300px;
+  width: 350px;
   height: 630px;
   background-color: #30344c;
   border-radius: 15px;

@@ -5,7 +5,7 @@ body {
   align-items: flex-start; /* Align items to the top */
   justify-content: center;
   height: 100vh; /* Fill the vertical space */
-  background: linear-gradient(to bottom, #ffffff 0%, #cacaca 50%, #ffffff 50%);
+  background: #17141d; 
 }
 
 /* home button */

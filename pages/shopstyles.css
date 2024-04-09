@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: #17141d; /* Background color for the entire body */
   display: flex;
   align-items: flex-start; /* Align items to the top */
   justify-content: center;
   height: 100vh; /* Fill the vertical space */
+  background: linear-gradient(to bottom, #ffffff 0%, #cacaca 50%, #ffffff 100%);
 }

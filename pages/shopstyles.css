@@ -110,3 +110,11 @@ body {
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
+
+/* icons */
+
+.iconhome {
+  width: 90%;
+  height: 90%;
+  z-index: 999;
+  }

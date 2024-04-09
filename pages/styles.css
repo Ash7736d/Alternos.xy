@@ -111,10 +111,10 @@ body {
   }
 }
 
-/* icons */
-
+  /* icons */
 .iconhome {
-  width: 90%;
-  height: 90%;
+  width: 70%; /* Adjust the size as needed */
+  height: 70%; /* Adjust the size as needed */
+  object-fit: contain; /* Keep the aspect ratio */
   z-index: 999;
-  }
+}

@@ -49,5 +49,5 @@ document.querySelector('.close-btn').addEventListener('click', function() {
 
 // Add event listener to the button to navigate to the shop page
 document.getElementById('shopButton').addEventListener('click', function() {
-  window.location.href = 'pages/shop';
+  window.location.href = 'pages/shop.html';
 });

@@ -10,34 +10,50 @@ body {
 
 /* Loader */
 .obj {
-  position: fixed; /* Fixed position to cover the entire viewport */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgb(21, 21, 21); /* Background color of the loader */
-  z-index: 9999; /* Ensure it's above other content */
+  position: relative;
+  width: 200px;
+  height: 200px;
+    /* background-color: rgb(96, 96, 232); */
+  transform-style: preserve-3d;
+  transition: 0.5s all;
+  transform: rotateX(-25deg) rotateY(20deg);
 }
 
 .objchild {
+  animation: rotate 4s infinite linear;
+  transform-style: preserve-3d;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Center the loader horizontally and vertically */
+  width: 100%;
+  height: 100%;
+    /* background:linear-gradient( to top,rgb(11, 11, 102),rgb(96, 96, 232) ) ; */
+}
+
+.objchild::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+    /* background: rgb(37, 101, 230); */
+    /* background: radial-gradient(center center, farthest-side , #9993, transparent); */
+  filter: blur(20px);
+  box-shadow: 0 0 200px 15px white;
+  transform: rotateX(90deg) scale(1.1) translateZ(-120px);
 }
 
 .inn6 {
   position: absolute;
-  width: 100px; /* Adjust the size as needed */
-  height: 100px; /* Adjust the size as needed */
-  background: rgb(21, 21, 21); /* Background color of the loader */
+  width: 100%;
+  height: 100%;
+  background: rgb(21, 21, 21);
+  transform: rotateX(90deg) translateZ(100px);
+  animation: updown 4s infinite ease-in-out;
 }
 
-/* Animation styles for the loader */
 @keyframes rotate {
   0% {
     transform: rotate3d(0,1,0,0deg);
   }
+
   100% {
     transform: rotate3d(0,1,0,360deg);
   }
@@ -47,13 +63,15 @@ body {
   0% {
     transform: translateY(100px) rotateX(90deg) translateZ(100px);
   }
+
   50% {
     transform: translateY(200px);
   }
+
   100% {
     transform: translateY(100px) rotateX(450deg) translateZ(100px);
   }
-}
+  }
 
 /* home button */
 

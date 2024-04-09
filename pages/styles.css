@@ -183,3 +183,14 @@ body {
   object-fit: contain; /* Keep the aspect ratio */
   z-index: 999;
 }
+
+/* cards */
+
+.card {
+  width: 250px;
+  height: 350px;
+  background-color: #30344c;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow as needed */
+  margin: 20px; /* Adjust the margin as needed */
+}

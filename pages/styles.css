@@ -123,12 +123,12 @@ body {
 
 .card {
   width: 270px;
-  height: 550px;
+  height: 600px;
   background-color: #30344c;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Adjust the shadow as needed */
   perspective: 50px;
   margin-left: 50px;
   z-index: 100;
-  margin: 20px; /* Adjust the margin as needed */
+  margin: 30px; /* Adjust the margin as needed */
 }

@@ -648,7 +648,7 @@ linearGradient#gradient stop:nth-child(3) {
   border-radius: 50%;
   perspective: 5px;
   height: 10%;
-  width: 20%;
+  width: 10%;
   border: 2px solid #8e8e8e; /* White outline */
   color: #fff;
   cursor: pointer;
@@ -744,8 +744,8 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .iconshop {
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
   z-index: 999;
 }
 

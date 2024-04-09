@@ -649,6 +649,7 @@ linearGradient#gradient stop:nth-child(3) {
   perspective: 5px;
   height: 10%;
   width: 20%;
+  border: none; /* Remove border completely */
   color: #fff;
   cursor: pointer;
   background-color: transparent !important; /* Make the background transparent */
@@ -743,8 +744,8 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .iconshop {
-  width: 70%;
-  height: 70%;
+  width: 90%;
+  height: 90%;
   z-index: 999;
 }
 

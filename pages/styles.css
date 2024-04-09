@@ -8,72 +8,6 @@ body {
   background: #292929; 
 }
 
-/* Loader */
-.obj {
-  position: relative;
-  width: 200px;
-  height: 200px;
-    /* background-color: rgb(96, 96, 232); */
-  transform-style: preserve-3d;
-  transition: 0.5s all;
-  transform: rotateX(-25deg) rotateY(20deg);
-  z-index: 1;
-}
-
-.objchild {
-  animation: rotate 4s infinite linear;
-  transform-style: preserve-3d;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-    /* background:linear-gradient( to top,rgb(11, 11, 102),rgb(96, 96, 232) ) ; */
-}
-
-.objchild::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-    /* background: rgb(37, 101, 230); */
-    /* background: radial-gradient(center center, farthest-side , #9993, transparent); */
-  filter: blur(20px);
-  box-shadow: 0 0 200px 15px white;
-  transform: rotateX(90deg) scale(1.1) translateZ(-120px);
-}
-
-.inn6 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgb(21, 21, 21);
-  transform: rotateX(90deg) translateZ(100px);
-  animation: updown 4s infinite ease-in-out;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate3d(0,1,0,0deg);
-  }
-
-  100% {
-    transform: rotate3d(0,1,0,360deg);
-  }
-}
-
-@keyframes updown {
-  0% {
-    transform: translateY(100px) rotateX(90deg) translateZ(100px);
-  }
-
-  50% {
-    transform: translateY(200px);
-  }
-
-  100% {
-    transform: translateY(100px) rotateX(450deg) translateZ(100px);
-  }
-  }
-
 /* home button */
 
 .buttonn {
@@ -188,13 +122,13 @@ body {
 /* cards */
 
 .card {
-  width: 250px;
-  height: 350px;
+  width: 270px;
+  height: 550px;
   background-color: #30344c;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Adjust the shadow as needed */
   perspective: 50px;
-  margin-left: 150px;
-  z-index: 999;
+  margin-left: 50px;
+  z-index: 100;
   margin: 20px; /* Adjust the margin as needed */
 }

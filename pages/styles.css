@@ -112,9 +112,9 @@ body {
  }
 
   /* icons */
-.iconhome {
-  width: 70%; /* Adjust the size as needed */
-  height: 70%; /* Adjust the size as needed */
+.iconshop {
+  width: 90%; /* Adjust the size as needed */
+  height: 90%; /* Adjust the size as needed */
   object-fit: contain; /* Keep the aspect ratio */
   z-index: 100;
 }

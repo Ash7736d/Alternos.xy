@@ -21,7 +21,7 @@ body {
   color: #fff;
   cursor: pointer;
   background-color: transparent !important; /* Make the background transparent */
-  z-index: 1000;
+  z-index: 999;
   transition: all 0.2s ease;
   /* Adjust position */
   left: 10px; /* Move 20px to the right */
@@ -116,14 +116,14 @@ body {
   width: 50%; /* Adjust the size as needed */
   height: 50%; /* Adjust the size as needed */
   object-fit: contain; /* Keep the aspect ratio */
-  z-index: 200;
+  z-index: 999;
 }
 
 .icontitle {
   width: 25%; /* Adjust the size as needed */
   height: 25%; /* Adjust the size as needed */
   object-fit: contain; /* Keep the aspect ratio */
-  z-index: 300;
+  z-index: 999;
 }
 
 
@@ -134,6 +134,7 @@ body {
   width: 350px;
   height: 180px;
   top: 30px;
+  perspective: 10px;
   box-sizing: border-box;
   background-color: #212121;
   border: 5px solid #222;
@@ -142,6 +143,7 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  z-index: 999; /* Ensure the new card is on top */
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
               rgba(0, 0, 0, 0.23) 0px 6px 6px,
@@ -230,8 +232,8 @@ body {
   width: 350px; /* Adjust the width as needed */
   height: 550px; /* Adjust the height as needed */
   background-color: #30344c;
+  perspective: 10px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Adjust the shadow as needed */
-  z-index: 1; /* Ensure the new card is on top */
 }
 

@@ -226,7 +226,7 @@ body {
 .new-card {
   position: relative;
   top: 100px; /* Adjust the positioning as needed */
-  left: 50px; /* Adjust the positioning as needed */
+  left: -150px; /* Adjust the positioning as needed */
   width: 350px; /* Adjust the width as needed */
   height: 550px; /* Adjust the height as needed */
   background-color: #30344c;

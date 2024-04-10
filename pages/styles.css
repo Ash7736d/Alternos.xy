@@ -130,19 +130,6 @@ body {
 /* cards */
 
 .card {
-  width: 350px;
-  height: 630px;
-  background-color: #30344c;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Adjust the shadow as needed */
-  perspective: 5px;
-  margin-left: 50px;
-  z-index: 200;
-  margin: 30px; /* Adjust the margin as needed */
-}
-
-/* notifications */
-.card {
   position: relative;
   width: 350px;
   height: 180px;
@@ -161,14 +148,15 @@ body {
               inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
   transition: all ease-in-out 0.3s;
   overflow: hidden;
+  z-index: 1; /* Ensure the old card is at the bottom of the stacking order */
 }
 
 .card:hover {
-  box-shadow: rgba(42, 149, 222, 0.19) 0px 10px 20px,
-          rgba(42, 149, 222, 0.23) 0px 6px 6px,
+  box-shadow: rgba(193, 44, 223, 0.19) 0px 10px 20px,
+              rgba(193, 44, 223, 0.23) 0px 6px 6px,
               inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
               inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  border: 5px solid #479fff;
+  border: 5px solid #b671d6;
 }
 
 .card-title {
@@ -191,10 +179,7 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
   display: -webkit-box;
-  word-break: break-all
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  cursor: default;
+  word-break: break-all;
 }
 
 .card-text {
@@ -236,14 +221,15 @@ body {
 }
 
 /* New card styles */
-.button {
+.new-card {
   position: absolute;
-  top: -30px; /* Adjust the positioning as needed */
-  left: 50%;
-  transform: translateX(-50%);
+  top: 20px; /* Adjust the positioning as needed */
+  left: 20px; /* Adjust the positioning as needed */
+  width: 250px; /* Adjust the width as needed */
+  height: 350px; /* Adjust the height as needed */
   background-color: #30344c;
-  border: none;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjust the shadow as needed */
+  z-index: 2; /* Ensure the new card is on top */
 }
 

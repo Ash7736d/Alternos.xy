@@ -165,7 +165,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
               "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 600;
-  color: #fff;
+  color: #ff7070;
   cursor: default;
 }
 
@@ -176,6 +176,7 @@ body {
               "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 600;
   color: #fff;
+  top: -30px;
   -webkit-box-orient: vertical;
   overflow: hidden;
   display: -webkit-box;

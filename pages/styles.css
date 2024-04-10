@@ -131,7 +131,7 @@ body {
 /* cards */
 
 .card {
-  position: relative;
+  position: absolute;
   width: 350px;
   height: 180px;
   top: 30px;

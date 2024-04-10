@@ -5,6 +5,7 @@ body {
   align-items: flex-start; /* Align items to the top */
   justify-content: center;
   height: 130vh; /* Fill the vertical space */
+  width: 100%; /* Fill the horizontal space */
   background: #292929; 
 }
 

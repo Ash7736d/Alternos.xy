@@ -223,10 +223,10 @@ body {
 /* New card styles */
 .new-card {
   position: absolute;
-  top: 20px; /* Adjust the positioning as needed */
-  left: 20px; /* Adjust the positioning as needed */
+  top: 50px; /* Adjust the positioning as needed */
+  left: 50px; /* Adjust the positioning as needed */
   width: 350px; /* Adjust the width as needed */
-  height: 450px; /* Adjust the height as needed */
+  height: 550px; /* Adjust the height as needed */
   background-color: #30344c;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Adjust the shadow as needed */

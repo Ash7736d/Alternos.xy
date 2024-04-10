@@ -227,7 +227,7 @@ body {
 
 /* New card styles */
 .new-card {
-  position: relative;
+  position: absolute;
   top: 100px; /* Adjust the positioning as needed */
   left: -150px; /* Adjust the positioning as needed */
   width: 350px; /* Adjust the width as needed */

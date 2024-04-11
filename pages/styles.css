@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
 }
 
 .container {
@@ -25,6 +25,7 @@ body {
     border: 5px solid #222;
     border-radius: 8px;
     display: flex;
+    perspective: 50px;
     flex-direction: column;
     justify-content: center;
     margin-top: -400px;
@@ -114,16 +115,17 @@ body {
     
 .normal-card {
     width: 350px;
-    height: 300px;
+    height: 400px;
     background-color: #27272a;
     color: #fff;
     border-radius: 8px;
-    margin-top: 1in;
+    box-shadow: 0 0 10px 0 #000000;
+    perspective: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .normal-card-title {

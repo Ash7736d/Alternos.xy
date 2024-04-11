@@ -168,3 +168,9 @@ body {
 .close-btn:hover {
     color: #000;
 }
+
+    /* icons */
+.iconflame {
+  width: 20%;
+  height: 20%;
+}

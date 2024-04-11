@@ -12,8 +12,9 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column; /* Changed to column layout */
+    align-items: flex-start; /* Align items to the top */
+    height: 100vh; /* Set container height to full viewport height */
+    padding-top: 20px; /* Adjust top padding as needed */
 }
 
 .card {

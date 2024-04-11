@@ -151,6 +151,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    outline: 2px solid #989898;
     width: 280px; /* Adjust width as needed */
     height: 200px; /* Adjust height as needed */
 }
@@ -161,6 +162,18 @@ body {
     perspective: 100px;
 }
 
+.popup-card .footer {
+    background-color: #333; /* Footer background color */
+    padding: 10px; /* Footer padding */
+    border-top: 1px solid #000; /* Border between content and footer */
+}
+
+.popup-card .footer p {
+    margin: 0; /* Remove default margin */
+    color: #fff; /* Footer text color */
+    text-align: center; /* Center-align footer text */
+}
+    
 .popup-card.show {
     display: block; /* Show the popup card when it has the 'show' class */
 }
@@ -181,7 +194,7 @@ body {
 
     /* icons */
 .iconflame {
-  width: 5%;
-  height: 40%;
+  width: 6%;
+  height: 90%;
   z-index: 999;
 }

@@ -157,8 +157,8 @@ body {
 
 .popup-card h2 {
     color: #32a6ff; /* Set the text color to blue */
-    text-shadow: 0 0 10px rgba(0, 212, 255, 0.9);
-    perspective: 50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    perspective: 100px;
 }
 
 .popup-card.show {
@@ -171,8 +171,8 @@ body {
     top: 10px;
     right: 10px;
     cursor: pointer;
-    font-size: 20px;
-    color: #666;
+    font-size: 30px;
+    color: #000000;
 }
 
 .close-btn:hover {
@@ -182,6 +182,6 @@ body {
     /* icons */
 .iconflame {
   width: 5%;
-  height: 20%;
+  height: 40%;
   z-index: 999;
 }

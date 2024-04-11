@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>𝗔𝗹𝘁𝗲𝗿𝗻𝗼𝘀/𝘀𝗵𝗼𝗽</title>
     <link rel="icon" href="../icons/logo.png" type="image/png">
-    <link rel="stylesheet
-        " href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -15,7 +14,7 @@
             <p class="card-des">
                 • 𝗜𝗡𝗦𝗛𝗜𝗡 𝗕𝗔𝗧𝗧𝗟𝗘𝗦 𝗦𝟭 𝗠𝗲𝗿𝗰𝗵 𝘀𝗵𝗼𝗽 𝗶𝘀 𝗼𝗽𝗲𝗻!, 𝗬𝗼𝘂 𝗰𝗮𝗻 𝗯𝘂𝘆 𝗻𝗲𝘄 𝗟𝗶𝗺𝗶𝘁𝗲𝗱𝘀,𝗕𝘂𝗻𝗱𝗹𝗲𝘀,𝗖𝗹𝘂𝘀𝘁𝗲𝗿𝘀 & 𝗡𝗲𝘄 𝗹𝗮𝘁𝗲𝘀𝘁 𝘀𝗵𝗼𝗽 𝗶𝘁𝗲𝗺𝘀, 𝗦𝗼𝗺𝗲 𝗼𝗳 𝘁𝗵𝗲𝘀𝗲 𝗶𝘁𝗲𝗺𝘀 𝗼𝗻𝗹𝘆 𝗽𝘂𝗿𝗰𝗵𝗮𝘀𝗮𝗯𝗹𝗲 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘁𝗵𝗲 𝘄𝗲𝗯𝘀𝗶𝘁𝗲 𝗮𝗻𝗱 𝗻𝗼𝘁 𝗳𝗿𝗼𝗺 𝗱𝗶𝘀𝗰𝗼𝗿𝗱! 
             </p>
-            <p class="card-text">
+            <p class="card-text" id="popup-trigger">
                 <span>𝗪𝗵𝗮𝘁'𝘀 𝗡𝗲𝘄?</span>
                 <svg class="arrow-icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
@@ -29,5 +28,18 @@
             </p>
         </div>
     </div>
+
+    <!-- Popup Card -->
+    <div class="popup-card" id="popup-card">
+        <div class="popup-content">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <!-- Add content for the popup card here -->
+            <h2>Popup Card Content</h2>
+            <p>This is the content of the popup card.</p>
+        </div>
+    </div>
+
+    <!-- Include your JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>

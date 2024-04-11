@@ -125,15 +125,16 @@ body {
     perspective: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Align content to the top */
     align-items: center;
     outline: 2px solid #989898;
     margin-top: 30px;
 }
 
 .normal-card-title {
-    margin: 0;
+    margin-top: 20px; /* Add margin to separate from the top */
     font-size: 18px;
+    color: #32a6ff;
 }
 
 .normal-card-text {

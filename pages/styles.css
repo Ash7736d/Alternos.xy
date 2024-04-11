@@ -168,6 +168,8 @@ body {
 
 .popup-card .footer p {
     margin: 0; /* Remove default margin */
+    margin-top: 20px;
+    font-size: 11px;
     color: #989898; /* Footer text color */
     text-align: center; /* Center-align footer text */
 }

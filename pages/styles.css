@@ -173,4 +173,5 @@ body {
 .iconflame {
   width: 20%;
   height: 20%;
+  z-index: 999;
 }

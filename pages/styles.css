@@ -19,7 +19,7 @@ body {
 .card {
     position: relative;
     width: 350px;
-    height: 250px;
+    height: 180px;
     box-sizing: border-box;
     background-color: #fff;
     border: 5px solid #222;
@@ -49,6 +49,7 @@ body {
 
 .card-title {
     margin: 0;
+    top: -40;
     font-size: 18px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
                 "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -116,7 +117,7 @@ body {
     
 .normal-card {
     width: 350px;
-    height: 400px;
+    height: 600px;
     background-color: #27272a;
     color: #fff;
     border-radius: 8px;
@@ -126,6 +127,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    outline: 2px solid #989898;
     margin-top: 10px;
 }
 

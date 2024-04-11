@@ -86,7 +86,7 @@ body {
     display: flex;
     align-items: center;
     gap: 3px;
-    opacity: 0;
+    opacity: 10;
     transition: all ease-in-out 0.3s;
     animation: textanimate 0.8s alternate infinite;
     cursor: pointer;

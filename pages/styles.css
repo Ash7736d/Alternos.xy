@@ -134,7 +134,6 @@ body {
 .normal-card-title {
     margin-top: 20px; /* Add margin to separate from the top */
     margin-bottom: 20px; /* Add margin below the title */
-    font-size: 18px;
     color: #32a6ff; /* Make the text color #32a6ff */
 }
 
@@ -142,9 +141,9 @@ body {
     margin-top: 20px; /* Add margin below the title */
     margin-bottom: 40px; /* Add more margin below the text */;
     text-align: left; /* Align the text to the left */
-    border: 2px solid #000; /* Add a solid border around the text */
+    border: 2px solid #32a6ff; /* Add a solid border around the text */
     padding: 10px; /* Add padding inside the border */
-    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
 
 /* Styles for the popup card */
 .popup-card {

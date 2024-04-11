@@ -140,17 +140,19 @@ body {
 
 /* Styles for the popup card */
 .popup-card {
-    display: none; /* Initially hidden */
+    display: none; /* Initially hide the popup card */
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    background-color: white;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-card.show {
+    display: block; /* Show the popup card when it has the 'show' class */
 }
 
 /* Styles for the close button */

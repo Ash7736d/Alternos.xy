@@ -107,3 +107,28 @@ body {
     font-size: 15px;
     font-weight: 500;
 }
+
+/* second card css */
+    
+.normal-card {
+    width: 350px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 1in;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.normal-card-title {
+    margin: 0;
+    font-size: 18px;
+}
+
+.normal-card-text {
+    margin: 0;
+    font-size: 14px;
+}

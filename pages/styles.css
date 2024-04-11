@@ -150,15 +150,16 @@ body {
     perspective: 50px;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     outline: 2px solid #989898;
-    width: 380px; /* Adjust width as needed */
-    height: 150px; /* Adjust height as needed */
+    width: 250px; /* Adjust width as needed */
+    height: 140px; /* Adjust height as needed */
 }
 
 .popup-card h2 {
     color: #32a6ff; /* Set the text color to blue */
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin-top: -30px
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     perspective: 100px;
 }
 
@@ -172,6 +173,7 @@ body {
     font-size: 11px;
     color: #989898; /* Footer text color */
     text-align: center; /* Center-align footer text */
+    text-decoration: underline; /* Underline the text */
 }
     
 .popup-card.show {

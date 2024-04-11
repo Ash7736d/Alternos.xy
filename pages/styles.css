@@ -148,7 +148,7 @@ body {
     width: calc(100% - 20px); /* Make the width 100% minus the padding */
     box-sizing: border-box; /* Include padding and border in the width calculation */
     border-radius: 5px; /* Add slight border radius */
-    background-color: #fff; /* Set background color to white */
+    background-color: #27272a; /* Set background color to white */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Add a subtle shadow for 3D effect */
 }
 

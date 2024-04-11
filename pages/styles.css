@@ -135,7 +135,7 @@ body {
     margin-top: 20px; /* Add margin to separate from the top */
     margin-bottom: 20px; /* Add margin below the title */
     color: #32a6ff; /* Make the text color #32a6ff */
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .normal-card-text {
@@ -147,6 +147,9 @@ body {
     padding: 10px; /* Add padding inside the border */
     width: calc(100% - 20px); /* Make the width 100% minus the padding */
     box-sizing: border-box; /* Include padding and border in the width calculation */
+    border-radius: 5px; /* Add slight border radius */
+    background-color: #fff; /* Set background color to white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Add a subtle shadow for 3D effect */
 }
 
 /* Styles for the popup card */

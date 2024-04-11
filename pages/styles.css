@@ -134,6 +134,7 @@ body {
 .normal-card-title {
     margin-top: 20px; /* Add margin to separate from the top */
     margin-bottom: 20px; /* Add margin below the title */
+    font-size: 18px;
     color: #32a6ff; /* Make the text color #32a6ff */
 }
 

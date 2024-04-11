@@ -12,6 +12,15 @@ document.addEventListener("DOMContentLoaded", function() {
         popupCard.classList.toggle("show");
     });
 
+    // Get the close button element
+    var closeButton = document.getElementById("close-btn");
+
+    // Add a click event listener to the close button
+    closeButton.addEventListener("click", function() {
+        // Remove the 'show' class from the popup card to hide it
+        popupCard.classList.remove("show");
+    });
+
     // Add event listener to the button to navigate to the main directory
     document.getElementById('shopButton').addEventListener('click', function(event) {
       event.preventDefault(); // Prevent the default action

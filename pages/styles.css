@@ -141,6 +141,8 @@ body {
     margin-top: 20px; /* Add margin below the title */
     margin-bottom: 40px; /* Add more margin below the text */;
     text-align: left; /* Align the text to the left */
+    border: 2px solid #32a6ff; /* Add a solid border around the text */
+    padding: 10px; /* Add padding inside the border */
 }
 
 /* Styles for the popup card */

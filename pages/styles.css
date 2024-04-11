@@ -146,14 +146,14 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #29292c;
+    background-color: #fff;
     perspective: 50px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     outline: 2px solid #989898;
-    width: 280px; /* Adjust width as needed */
-    height: 200px; /* Adjust height as needed */
+    width: 380px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
 }
 
 .popup-card h2 {
@@ -163,14 +163,12 @@ body {
 }
 
 .popup-card .footer {
-    background-color: #333; /* Footer background color */
     padding: 10px; /* Footer padding */
-    border-top: 1px solid #000; /* Border between content and footer */
 }
 
 .popup-card .footer p {
     margin: 0; /* Remove default margin */
-    color: #fff; /* Footer text color */
+    color: #989898; /* Footer text color */
     text-align: center; /* Center-align footer text */
 }
     

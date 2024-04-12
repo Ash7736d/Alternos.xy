@@ -483,7 +483,7 @@ linearGradient#gradient stop:nth-child(3) {
   isolation: isolate;
   position: relative;
   width: 19.4rem;
-  height: 27rem;
+  height: 28rem;
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
@@ -758,12 +758,14 @@ linearGradient#gradient stop:nth-child(3) {
 .iconleader {
   width: 10%;
   height: 10%;
+  margin-left: 40px;
+  margin-top: 5px;
   z-index: 1000;
 }
 
  .lcard {
   width: 260px;
-  height: 300px;
+  height: 320px;
   background: #131314;
   perspective: 10px;
   font-family: "Courier New", Courier, monospace;

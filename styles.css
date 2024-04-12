@@ -756,8 +756,8 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
  .lcard {
-  width: 250px;
-  background: rgb(21, 21, 21);
+  width: 260px;
+  background: #29292c;
   perspective: 10px;
   font-family: "Courier New", Courier, monospace;
   border-top-left-radius: 12px;
@@ -766,7 +766,7 @@ linearGradient#gradient stop:nth-child(3) {
   border-bottom-right-radius: 4px;
   overflow: hidden;
   z-index: 999;
-  margin-left: 0.4in; /* Move 1 inch to the right */
+  margin-left: 0.3in; /* Move 1 inch to the right */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9); /* Add box shadow */
 }
 
@@ -788,8 +788,8 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .lcard__right {
-  width: 60%;
-  border-right: 1px solid rgb(187, 187, 187);
+  width: 80%;
+  border-right: 1px solid rgb(255, 255, 255);
 }
 
 .lcard__left {
@@ -799,7 +799,7 @@ linearGradient#gradient stop:nth-child(3) {
 
 .item {
   padding: 3px 0;
-  background-color: #000000;
+  background-color: #29292c;
 }
 
 .lcard__right .item {
@@ -813,6 +813,6 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .item:nth-child(even) {
-  background: rgb(0, 0, 0);
+  background: #29292c;
 }
    

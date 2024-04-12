@@ -757,7 +757,8 @@ linearGradient#gradient stop:nth-child(3) {
 
  .lcard {
   width: 260px;
-  background: #29292c;
+  height: 280
+  background: #131314;
   perspective: 10px;
   font-family: "Courier New", Courier, monospace;
   border-top-left-radius: 12px;
@@ -789,7 +790,7 @@ linearGradient#gradient stop:nth-child(3) {
 
 .lcard__right {
   width: 80%;
-  border-right: 1px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
 }
 
 .lcard__left {
@@ -799,7 +800,7 @@ linearGradient#gradient stop:nth-child(3) {
 
 .item {
   padding: 3px 0;
-  background-color: #29292c;
+  background-color: #131314;
 }
 
 .lcard__right .item {
@@ -813,6 +814,6 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .item:nth-child(even) {
-  background: #29292c;
+  background: #131314;
 }
    

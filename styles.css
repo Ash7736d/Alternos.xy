@@ -755,7 +755,7 @@ linearGradient#gradient stop:nth-child(3) {
   z-index: 999;
 }
 
- .card {
+ .lcard {
   width: 250px;
   background: rgb(44, 44, 44);
   font-family: "Courier New", Courier, monospace;
@@ -766,7 +766,7 @@ linearGradient#gradient stop:nth-child(3) {
   overflow: hidden;
 }
 
-.card__title {
+.lcard__title {
   color: white;
   font-weight: bold;
   padding: 5px 10px;
@@ -774,7 +774,7 @@ linearGradient#gradient stop:nth-child(3) {
   font-size: 0.95rem;
 }
 
-.card__data {
+.lcard__data {
   font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
@@ -783,12 +783,12 @@ linearGradient#gradient stop:nth-child(3) {
   border-bottom: 1px solid rgb(203, 203, 203);
 }
 
-.card__right {
+.lcard__right {
   width: 60%;
   border-right: 1px solid rgb(203, 203, 203);
 }
 
-.card__left {
+.lcard__left {
   width: 40%;
   text-align: end;
 }
@@ -798,11 +798,11 @@ linearGradient#gradient stop:nth-child(3) {
   background-color: white;
 }
 
-.card__right .item {
+.lcard__right .item {
   padding-left: 0.8em;
 }
 
-.card__left .item {
+.lcard__left .item {
   padding-right: 0.8em;
 }
 

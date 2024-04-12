@@ -243,7 +243,7 @@ linearGradient#gradient stop:nth-child(3) {
   font-size: 16px;
   font-weight: 700;
   color: #ff7576;
-  background-color: #ffffff;
+  background-color: #333333;
   border: none;
   outline: none;
   cursor: pointer;
@@ -539,7 +539,7 @@ linearGradient#gradient stop:nth-child(3) {
   isolation: isolate;
   position: relative;
   width: 19.4rem;
-  height: 31rem;
+  height: 32rem;
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
@@ -811,7 +811,7 @@ linearGradient#gradient stop:nth-child(3) {
   overflow: hidden;
   z-index: 999;
   margin-left: 0.3in; /* Move 1 inch to the right */
-  margin-top: -20px;
+  margin-top: -30px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9); /* Add box shadow */
 }
 

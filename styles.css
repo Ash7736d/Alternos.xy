@@ -765,7 +765,7 @@ linearGradient#gradient stop:nth-child(3) {
 
  .lcard {
   width: 260px;
-  height: 320px;
+  height: 310px;
   background: #131314;
   perspective: 10px;
   font-family: "Courier New", Courier, monospace;
@@ -826,3 +826,8 @@ linearGradient#gradient stop:nth-child(3) {
   background: #131314;
 }
    
+.lcard__footer {
+  padding-left: 0.8em;
+  color: #636363; 
+  font-size: 0.8rem; /* Adjust font size as needed */
+}

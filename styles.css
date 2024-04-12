@@ -758,7 +758,7 @@ linearGradient#gradient stop:nth-child(3) {
 .iconleader {
   width: 10%;
   height: 10%;
-  margin-left: 40px;
+  margin-left: 70px;
   margin-top: 5px;
   z-index: 1000;
 }
@@ -829,5 +829,6 @@ linearGradient#gradient stop:nth-child(3) {
 .lcard__footer {
   padding-left: 0.8em;
   color: #a9a9a9; 
-  font-size: 0.5rem; /* Adjust font size as needed */
+  font-weight: bold;
+  font-size: 0.7rem; /* Adjust font size as needed */
 }

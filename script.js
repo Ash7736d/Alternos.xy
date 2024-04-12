@@ -62,9 +62,7 @@ function updateDateTime() {
   const day = now.toLocaleString('en-US', { weekday: 'long' });
   const month = now.toLocaleString('en-US', { month: 'long' });
 
-  document.getElementById('local-time').textContent = localTime;
-  document.getElementById('local-day').textContent = day;
-  document.getElementById('local-month').textContent = month;
+  document.getElementById('lastUpdatedTime').textContent = localTime; // Update ID to 'lastUpdatedTime'
 }
 
 // Initial call to update date and time

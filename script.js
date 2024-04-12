@@ -52,3 +52,23 @@ document.getElementById('shopButton').addEventListener('click', function(event) 
   event.preventDefault(); // Prevent the default action
   window.location.href = 'pages/shop.html';
 });
+
+// Function to update data & time
+function updateDateTime() {
+  const now = new Date();
+  const options = { weekday: 'long', month: 'long', hour: 'numeric', minute: 'numeric', hour12: true };
+  const localTime = now.toLocaleString('en-US', options);
+
+  const day = now.toLocaleString('en-US', { weekday: 'long' });
+  const month = now.toLocaleString('en-US', { month: 'long' });
+
+  document.getElementById('local-time').textContent = localTime;
+  document.getElementById('local-day').textContent = day;
+  document.getElementById('local-month').textContent = month;
+}
+
+// Initial call to update date and time
+updateDateTime();
+
+// Update date and time every 5-10 minutes
+setInterval(updateDateTime, Math.floor(Math.random() * (10 - 5 + 1)) + 5 * 60 * 1000);

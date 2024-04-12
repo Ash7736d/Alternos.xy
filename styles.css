@@ -854,7 +854,7 @@ linearGradient#gradient stop:nth-child(3) {
   background: #131314;
 }
    
-.lcard__footer {
+.lcard__footer, .bold {
   padding-left: 0.8em;
   color: #8e8e90; 
   font-weight: bold;

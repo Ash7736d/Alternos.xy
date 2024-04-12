@@ -782,9 +782,9 @@ linearGradient#gradient stop:nth-child(3) {
   font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
-  border-right: 1px solid rgb(203, 203, 203);
-  border-left: 1px solid rgb(203, 203, 203);
-  border-bottom: 1px solid rgb(203, 203, 203);
+  border-right: 1px solid rgb(29, 29, 29);
+  border-left: 1px solid rgb(29, 29, 29);
+  border-bottom: 1px solid rgb(29, 29, 29);
 }
 
 .lcard__right {
@@ -804,10 +804,12 @@ linearGradient#gradient stop:nth-child(3) {
 
 .lcard__right .item {
   padding-left: 0.8em;
+  color: #ffffff;
 }
 
 .lcard__left .item {
   padding-right: 0.8em;
+  color: #ffffff;
 }
 
 .item:nth-child(even) {

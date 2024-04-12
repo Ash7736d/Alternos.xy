@@ -757,7 +757,7 @@ linearGradient#gradient stop:nth-child(3) {
 
  .lcard {
   width: 260px;
-  height: 280
+  height: 280px;
   background: #131314;
   perspective: 10px;
   font-family: "Courier New", Courier, monospace;
@@ -768,6 +768,7 @@ linearGradient#gradient stop:nth-child(3) {
   overflow: hidden;
   z-index: 999;
   margin-left: 0.3in; /* Move 1 inch to the right */
+  margin-top: 40px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9); /* Add box shadow */
 }
 

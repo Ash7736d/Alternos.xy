@@ -152,7 +152,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Add a subtle shadow for 3D effect */
 }
 /* price card */
-.card {
+.pricecard {
   position: relative;
   background: transparent;
   width: 300px;
@@ -160,11 +160,11 @@ body {
   border: none;
 }
 
-.card:hover {
+.pricecard:hover {
   width: 300px;
 }
 
-.card .container-image {
+.pricecard .container-image {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -180,13 +180,13 @@ body {
   transition-delay: .6s, 0s;
 }
 
-.card:hover .container-image {
+.pricecard:hover .container-image {
   opacity: 0;
   border-radius: 8px;
   transition-delay: 0s, .6s;
 }
 
-.card .container-image .image-circle {
+.pricecard .container-image .image-circle {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -199,12 +199,12 @@ body {
   transition-delay: .4s;
 }
 
-.card:hover .container-image .image-circle {
+.pricecard:hover .container-image .image-circle {
   opacity: 0;
   transition-delay: 0s;
 }
 
-.card .content {
+.pricecard .pricecontent {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -226,14 +226,14 @@ body {
   z-index: 1;
 }
 
-.card:hover .content {
+.pricecard:hover .pricecontent {
   width: 290px;
   height: 190px;
   visibility: visible;
   transition-delay: .5s;
 }
 
-.card .content .detail {
+.pricecard .pricecontent .detail {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -243,20 +243,20 @@ body {
   transition-delay: 0s;
 }
 
-.card:hover .content .detail {
+.pricecard:hover .pricecontent .detail {
   color: #181818;
   opacity: 100%;
   transition: 1s;
   transition-delay: .3s;
 }
 
-.card .content .detail span {
+.pricecard .pricecontent .detail span {
   margin-bottom: 5px;
   font-size: 18px;
   font-weight: 800;
 }
 
-.card .content .detail button {
+.pricecard .pricecontent .detail button {
   background: #b8854b;
   margin-top: auto;
   width: 75px;
@@ -268,17 +268,17 @@ body {
   transition: .3s ease-in-out;
 }
 
-.card .content .detail button:hover {
+.pricecard .pricecontent .detail button:hover {
   background: #d39f63;
 }
 
-.card .content .product-image {
+.pricecard .pricecontent .product-image {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.card .content .product-image .box-image {
+.pricecard .pricecontent .product-image .box-image {
   display: flex;
   position: absolute;
   top: 0;
@@ -291,7 +291,7 @@ body {
   transition-delay: 0s;
 }
 
-.card:hover .content .product-image .box-image {
+.pricecard:hover .pricecontent .product-image .box-image {
   top: -25%;
   left: 0;
   opacity: 100%;
@@ -299,7 +299,7 @@ body {
   transition-delay: .3s;
 }
 
-.card .content .product-image .box-image .img-product {
+.pricecard .pricecontent .product-image .box-image .img-product {
   margin: auto;
   width: 7rem;
   height: auto;

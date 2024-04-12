@@ -757,7 +757,7 @@ linearGradient#gradient stop:nth-child(3) {
 
  .lcard {
   width: 250px;
-  background: rgb(44, 44, 44);
+  background: rgb(8, 8, 39);
   font-family: "Courier New", Courier, monospace;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
@@ -771,7 +771,7 @@ linearGradient#gradient stop:nth-child(3) {
   color: white;
   font-weight: bold;
   padding: 5px 10px;
-  border-bottom: 1px solid rgb(167, 159, 159);
+  border-bottom: 1px solid rgb(35, 34, 34);
   font-size: 0.95rem;
 }
 

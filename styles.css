@@ -89,7 +89,7 @@ body {
 }
 
 .card__description {
-  margin-top: 50px; /* changed margin-top to 10px */
+  margin-top: 10px; /* changed margin-top to 10px */
   margin-left: 80px; /* Adjust the left margin as needed */
   font-weight: 400; /* changed font weight to normal */
   letter-spacing: normal; /* removed letter-spacing */
@@ -814,8 +814,8 @@ linearGradient#gradient stop:nth-child(3) {
 .iconleader {
   width: 10%;
   height: 10%;
-  margin-left: 85px;
-  margin-top: 10px;
+  margin-left: 70px;
+  margin-top: 5px;
   z-index: 1000;
 }
 

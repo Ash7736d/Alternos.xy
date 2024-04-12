@@ -89,17 +89,45 @@ body {
 }
 
 .card__description {
-  margin-top: 30px; /* changed margin-top to 10px */
+  margin-top: 50px; /* changed margin-top to 10px */
   margin-left: 80px; /* Adjust the left margin as needed */
   font-weight: 400; /* changed font weight to normal */
   letter-spacing: normal; /* removed letter-spacing */
   perspective: 200px;
-  background: linear-gradient(to right, #000000, #ffffff, #000000, #76a2a6); /* Define your gradient colors */
-  -webkit-background-clip: text; /* Apply gradient to text */
-  background-clip: text; /* Apply gradient to text */
-  -webkit-text-fill-color: transparent; /* Hide original text */
-  text-fill-color: transparent; /* Hide original text */
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Adjust the opacity value as needed */
+  color: rgba(255, 255, 255, 0.3);
+  background: #3d83ff -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#3d83ff),
+      to(#3d83ff),
+      color-stop(0.5, #fff)
+    ) 0 0 no-repeat;
+  background-image: -webkit-linear-gradient(
+    -40deg,
+    transparent 0%,
+    transparent 40%,
+    #fff 50%,
+    transparent 60%,
+    transparent 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-background-size: 50px;
+  -webkit-animation: zezzz;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes zezzz {
+  0%,
+  10% {
+    background-position: -200px;
+  }
+  20% {
+    background-position: top left;
+  }
+  100% {
+    background-position: 200px;
+  }
 }
 
 .card__content {

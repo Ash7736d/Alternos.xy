@@ -59,24 +59,28 @@ let prevMonth = '';
 
 // Function to update date & time
 function updateDateTime() {
-    const now = new Date();
+  // Check if last updated time is stored in localStorage
+  const lastUpdatedTime = localStorage.getItem('lastUpdatedTime');
+  const now = new Date();
+  
+  // Check if last updated time exists and if it's been less than 5 minutes since the last update
+  if (lastUpdatedTime && now.getTime() - parseInt(lastUpdatedTime) < 5 * 60 * 1000) {
+    // If less than 5 minutes, display the last updated time
+    const lastUpdatedDate = new Date(parseInt(lastUpdatedTime));
+    document.getElementById('local-time').textContent = lastUpdatedDate.toLocaleTimeString();
+    document.getElementById('local-day').textContent = lastUpdatedDate.toLocaleDateString(undefined, { weekday: 'long' });
+    document.getElementById('local-month').textContent = lastUpdatedDate.toLocaleDateString(undefined, { month: 'long' });
+  } else {
+    // If more than 5 minutes, update the time
     const options = { weekday: 'long', month: 'long', hour: 'numeric', minute: 'numeric', hour12: true };
     const localTime = now.toLocaleString('en-US', options);
-
-    const day = now.toLocaleString('en-US', { weekday: 'long' });
-    const month = now.toLocaleString('en-US', { month: 'long' });
-
-    // Check if day and month have changed
-    if (day !== prevDay || month !== prevMonth) {
-        // Update DOM only if day or month has changed
-        document.getElementById('local-day').textContent = day;
-        document.getElementById('local-month').textContent = month;
-        prevDay = day; // Update previous day
-        prevMonth = month; // Update previous month
-    }
-
-    // Update time every 5-10 minutes
     document.getElementById('local-time').textContent = localTime;
+    document.getElementById('local-day').textContent = now.toLocaleDateString(undefined, { weekday: 'long' });
+    document.getElementById('local-month').textContent = now.toLocaleDateString(undefined, { month: 'long' });
+
+    // Store the current time in localStorage
+    localStorage.setItem('lastUpdatedTime', now.getTime().toString());
+  }
 }
 
 // Initial call to update date and time

@@ -766,8 +766,7 @@ linearGradient#gradient stop:nth-child(3) {
   border-bottom-right-radius: 4px;
   overflow: hidden;
   z-index: 999;
-  margin-left: 1in; /* Move 1 inch to the right */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9); /* Add box shadow */
+  margin-left: 0.5in; /* Move 1 inch to the right */
 }
 
 .lcard__title {
@@ -789,7 +788,7 @@ linearGradient#gradient stop:nth-child(3) {
 
 .lcard__right {
   width: 60%;
-  border-right: 1px solid rgb(203, 203, 203);
+  border-right: 1px solid rgb(0, 0, 0);
 }
 
 .lcard__left {
@@ -813,6 +812,6 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .item:nth-child(even) {
-  background: rgb(234, 235, 234);
+  background: rgb(7, 8, 23);
 }
    

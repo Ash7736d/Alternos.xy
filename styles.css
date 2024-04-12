@@ -53,12 +53,12 @@ body {
   font-size: 19px; /* Adjust the font size as needed */
   perspective: 400px;
   color: rgba(255, 255, 255, 0.3);
-  background: #222 -webkit-gradient(
+  background: #3d83ff -webkit-gradient(
       linear,
       left top,
       right top,
-      from(#222),
-      to(#222),
+      from(#3d83ff),
+      to(#3d83ff),
       color-stop(0.5, #fff)
     ) 0 0 no-repeat;
   background-image: -webkit-linear-gradient(
@@ -787,7 +787,7 @@ linearGradient#gradient stop:nth-child(3) {
   width: 10%;
   height: 10%;
   margin-left: 92px;
-  margin-top: -20px;
+  margin-top: -30px;
   z-index: 1000;
 }
 
@@ -858,7 +858,6 @@ linearGradient#gradient stop:nth-child(3) {
   padding-left: 0.8em;
   color: #8e8e90; 
   font-weight: bold;
-  text-decoration: underline;
   font-size: 0.7rem; /* Adjust font size as needed */
   margin-top: 10px; /* Add margin to the top */
 }

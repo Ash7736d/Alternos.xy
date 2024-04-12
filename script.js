@@ -53,16 +53,29 @@ document.getElementById('shopButton').addEventListener('click', function(event) 
   window.location.href = 'pages/shop.html';
 });
 
-// Function to update data & time
+// Function to update date & time
 function updateDateTime() {
+  // Check if last updated time is stored in localStorage
+  const lastUpdatedTime = localStorage.getItem('lastUpdatedTime');
   const now = new Date();
-  const options = { weekday: 'long', month: 'long', hour: 'numeric', minute: 'numeric', hour12: true };
-  const localTime = now.toLocaleString('en-US', options);
+  
+  // Check if last updated time exists and if it's been less than 5 minutes since the last update
+  if (lastUpdatedTime && now.getTime() - parseInt(lastUpdatedTime) < 5 * 60 * 1000) {
+    // If less than 5 minutes, display the last updated time
+    document.getElementById('local-time').textContent = new Date(parseInt(lastUpdatedTime)).toLocaleTimeString();
+    document.getElementById('local-day').textContent = new Date(parseInt(lastUpdatedTime)).toLocaleDateString(undefined, { weekday: 'long' });
+    document.getElementById('local-month').textContent = new Date(parseInt(lastUpdatedTime)).toLocaleDateString(undefined, { month: 'long' });
+  } else {
+    // If more than 5 minutes, update the time
+    const options = { weekday: 'long', month: 'long', hour: 'numeric', minute: 'numeric', hour12: true };
+    const localTime = now.toLocaleString('en-US', options);
+    document.getElementById('local-time').textContent = localTime;
+    document.getElementById('local-day').textContent = now.toLocaleString('en-US', { weekday: 'long' });
+    document.getElementById('local-month').textContent = now.toLocaleString('en-US', { month: 'long' });
 
-  const day = now.toLocaleString('en-US', { weekday: 'long' });
-  const month = now.toLocaleString('en-US', { month: 'long' });
-
-  document.getElementById('lastUpdatedTime').textContent = localTime; // Update ID to 'lastUpdatedTime'
+    // Store the current time in localStorage
+    localStorage.setItem('lastUpdatedTime', now.getTime().toString());
+  }
 }
 
 // Initial call to update date and time

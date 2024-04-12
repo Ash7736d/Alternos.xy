@@ -816,7 +816,7 @@ linearGradient#gradient stop:nth-child(3) {
 }
 
 .lcard__title {
-  color: white;
+  color: #4f8eff;
   font-weight: bold;
   padding: 5px 10px;
   border-bottom: 1px solid rgb(35, 34, 34);
@@ -854,7 +854,7 @@ linearGradient#gradient stop:nth-child(3) {
 
 .lcard__left .item {
   padding-right: 0.8em;
-  color: #3d83ff;
+  color: #4f8eff;
 }
 
 .item:nth-child(even) {

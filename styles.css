@@ -539,7 +539,7 @@ linearGradient#gradient stop:nth-child(3) {
   isolation: isolate;
   position: relative;
   width: 19.4rem;
-  height: 29rem;
+  height: 31rem;
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
@@ -596,33 +596,6 @@ linearGradient#gradient stop:nth-child(3) {
   transition: transform 300ms ease;
   z-index: 5;
   margin-bottom: 50px;
-}
-
-/* user leaderboard list */
-.user1, .user2, .user3, .user4, .user5, .user6, .user7, .user8, .user9, .user10 {
-  color: #148b9a;
-  padding: 0 1.25rem;
-  transition: transform 300ms ease;
-  z-index: 5;
-  margin-top: -5px;
-}
-
-.line {
-  color: #ffffff;
-  padding: 0 1.20rem;
-  transition: transform 300ms ease;
-  z-index: 5;
-  margin-left: 145px;
-  margin-top: -333px;
-}
-
-.line2 {
-  color: #ffffff;
-  padding: 0 1.20rem;
-  transition: transform 300ms ease;
-  z-index: 5;
-  margin-left: 145px;
-  margin-top: -328px;
 }
 
 .notificationleaderboard:hover .notibodyleaderboard {

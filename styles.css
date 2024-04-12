@@ -789,7 +789,7 @@ linearGradient#gradient stop:nth-child(3) {
 
 .lcard__right {
   width: 60%;
-  border-right: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(187, 187, 187);
 }
 
 .lcard__left {
@@ -799,7 +799,7 @@ linearGradient#gradient stop:nth-child(3) {
 
 .item {
   padding: 3px 0;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .lcard__right .item {

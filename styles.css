@@ -758,8 +758,8 @@ linearGradient#gradient stop:nth-child(3) {
 .iconleader {
   width: 10%;
   height: 10%;
-  margin-left: 70px;
-  margin-top: 5px;
+  margin-left: 90px;
+  margin-top: -15px;
   z-index: 1000;
 }
 
@@ -831,4 +831,5 @@ linearGradient#gradient stop:nth-child(3) {
   color: #a9a9a9; 
   font-weight: bold;
   font-size: 0.7rem; /* Adjust font size as needed */
+  margin-top: 10px; /* Add margin to the top */
 }

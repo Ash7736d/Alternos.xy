@@ -59,7 +59,7 @@ body {
       right top,
       from(#3d83ff),
       to(#3d83ff),
-      color-stop(0.5, #fff)
+      color-stop(0.5, #139099)
     ) 0 0 no-repeat;
   background-image: -webkit-linear-gradient(
     -40deg,
@@ -72,7 +72,7 @@ body {
   -webkit-background-clip: text;
   -webkit-background-size: 50px;
   -webkit-animation: zezzz;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
 }
 @-webkit-keyframes zezzz {
@@ -101,7 +101,7 @@ body {
       right top,
       from(#3d83ff),
       to(#3d83ff),
-      color-stop(0.5, #fff)
+      color-stop(0.5, #139099)
     ) 0 0 no-repeat;
   background-image: -webkit-linear-gradient(
     -40deg,
@@ -114,7 +114,7 @@ body {
   -webkit-background-clip: text;
   -webkit-background-size: 50px;
   -webkit-animation: zezzz;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
 }
 @-webkit-keyframes zezzz {
@@ -539,7 +539,7 @@ linearGradient#gradient stop:nth-child(3) {
   isolation: isolate;
   position: relative;
   width: 19.4rem;
-  height: 28rem;
+  height: 29rem;
   background: #29292c;
   border-radius: 1rem;
   overflow: hidden;
@@ -838,7 +838,7 @@ linearGradient#gradient stop:nth-child(3) {
   overflow: hidden;
   z-index: 999;
   margin-left: 0.3in; /* Move 1 inch to the right */
-  margin-top: 5px;
+  margin-top: -20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9); /* Add box shadow */
 }
 

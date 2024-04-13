@@ -155,47 +155,74 @@ body {
 /* price card */
 
 .price-card {
-    width: 140px;
-    height: 140px;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
+    w.price-card {
+    max-width: 145px;
+    max-height: 150px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
 }
 
-.price-card h2 {
-    color: black;
-    font-size: 12px;
-    margin-bottom: 6px;
-}
-
-.price-card p {
-    color: black;
-    font-size: 10px;
-    margin-bottom: 4px;
-}
-
-.price-card .tick {
-    color: green;
-}
-
-.price-card .cross {
-    color: red;
+.header {
+    display: flex;
+    align-items: center;
 }
 
 .header-image {
-    width: 50px;
-    height: 50px;
-    z-index: 999;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
-.price-card .buy-button {
+.description {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.tick {
+    margin-right: 5px;
+    color: green;
+}
+
+.cross {
+    margin-right: 5px;
+    color: red;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-green {
+    background-color: green;
+}
+
+.circle-red {
+    background-color: red;
+}
+
+.circle-white {
+    background-color: white;
+}
+
+.buy-button {
+    margin-top: 6px;
+    padding: 8px;
     background-color: black;
     color: white;
     border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 10px;
+    border-radius: 4px;
     cursor: pointer;
 }
 

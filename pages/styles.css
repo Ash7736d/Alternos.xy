@@ -154,7 +154,7 @@ body {
 /* price card */
 .pricecard {
   position: relative;
-  background: transparent;
+  background: transparent !important;
   width: 200px;
   height: 200px;
   border: none;
@@ -170,19 +170,18 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background: transparent !important;
-  width: 190px;
-  height: 190px;
+  width: 140px;
+  height: 140px;
   cursor: pointer;
   border: none;
   border-radius: 50%;
-  box-shadow: 0 0 3px 1px #1818183d, 2px 2px 3px #18181865, inset 2px 2px 2px #ffffff;
   transition: all .3s ease-in-out, opacity .3s;
   transition-delay: .6s, 0s;
 }
 
 .pricecard:hover .container-image {
   opacity: 0;
-  border-radius: 8px;
+  border-radius: 7px;
   transition-delay: 0s, .6s;
 }
 
@@ -191,7 +190,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 125px;
+  width: 120px;
   height: auto;
   object-fit: contain;
   filter: drop-shadow(2px 2px 2px #1818188a);

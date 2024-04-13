@@ -161,7 +161,7 @@ body {
 }
 
 .pricecard:hover {
-  width: 300px;
+  width: 250px;
 }
 
 .pricecard .container-image {
@@ -170,8 +170,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background: transparent !important;
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
   cursor: pointer;
   border: none;
   border-radius: 50%;
@@ -326,6 +326,7 @@ body {
     outline: 2px solid #989898;
     width: 250px; /* Adjust width as needed */
     height: 140px; /* Adjust height as needed */
+    z-index: 1000;
 }
 
 .popup-card h2 {
@@ -333,10 +334,12 @@ body {
     margin-top: -30px
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     perspective: 100px;
+    z-index: 1000;
 }
 
 .popup-card .footer {
     padding: 10px; /* Footer padding */
+    z-index: 1000;
 }
 
 .popup-card .footer p {
@@ -346,10 +349,12 @@ body {
     color: #989898; /* Footer text color */
     text-align: center; /* Center-align footer text */
     text-decoration: underline; /* Underline the text */
+    z-index: 1000;
 }
     
 .popup-card.show {
     display: block; /* Show the popup card when it has the 'show' class */
+    z-index: 1000;
 }
 
 /* Styles for the close button */

@@ -169,7 +169,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #e7e7e7;
+  background: transparent !important;
   width: 190px;
   height: 190px;
   cursor: pointer;

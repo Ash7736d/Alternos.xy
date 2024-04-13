@@ -155,11 +155,12 @@ body {
 /* price card */
 
 .price-card {
-    max-width: 40px;
-    max-height: 40px;
+    width: 150px;
+    height: 150px;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
 }
 
 .price-card h2 {
@@ -175,11 +176,16 @@ body {
 }
 
 .price-card .tick {
-    color: black;
+    color: green;
 }
 
 .price-card .cross {
-    color: black;
+    color: red;
+}
+
+.price-card img {
+    width: 30px;
+    height: 30px;
 }
 
 .price-card .buy-button {

@@ -182,6 +182,11 @@ body {
     color: black;
 }
 
+.header-image {
+    width: 10px;
+    height: 10px;
+}
+
 .price-card .buy-button {
     background-color: black;
     color: white;

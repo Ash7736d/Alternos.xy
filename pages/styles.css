@@ -326,7 +326,7 @@ body {
     outline: 2px solid #989898;
     width: 250px; /* Adjust width as needed */
     height: 140px; /* Adjust height as needed */
-    z-index: 1000;
+    z-index: 10000;
 }
 
 .popup-card h2 {
@@ -334,12 +334,12 @@ body {
     margin-top: -30px
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     perspective: 100px;
-    z-index: 1000;
+    z-index: 10000;
 }
 
 .popup-card .footer {
     padding: 10px; /* Footer padding */
-    z-index: 1000;
+    z-index: 10000;
 }
 
 .popup-card .footer p {
@@ -349,12 +349,12 @@ body {
     color: #989898; /* Footer text color */
     text-align: center; /* Center-align footer text */
     text-decoration: underline; /* Underline the text */
-    z-index: 1000;
+    z-index: 10000;
 }
     
 .popup-card.show {
     display: block; /* Show the popup card when it has the 'show' class */
-    z-index: 1000;
+    z-index: 10000;
 }
 
 /* Styles for the close button */
@@ -365,10 +365,12 @@ body {
     cursor: pointer;
     font-size: 30px;
     color: #000000;
+    z-index: 10000;
 }
 
 .close-btn:hover {
     color: #000;
+    z-index: 10000;
 }
 
     /* icons */

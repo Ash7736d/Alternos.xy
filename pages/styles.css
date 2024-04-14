@@ -185,6 +185,7 @@ body {
   width: 1.25rem;
   height: 1.25rem;
   z-index: 1009;
+  margin-bottom: 1px;
 }
 
 .error-svg {
@@ -192,6 +193,7 @@ body {
   width: 1.25rem;
   height: 1.25rem;
   z-index: 1009;
+  margin-bottom: 1px;
 }
 
 .price-card img {

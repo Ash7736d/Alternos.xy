@@ -180,9 +180,12 @@ body {
     margin-bottom: 1px;
 }
 
-.succes-png {
-    width: 50%;
-    height: auto; /* To maintain aspect ratio */
+.tick {
+    color: green;
+}
+
+.cross {
+    color: red;
 }
 
 .price-card img {

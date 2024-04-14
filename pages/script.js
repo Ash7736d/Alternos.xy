@@ -46,12 +46,12 @@ document.addEventListener("DOMContentLoaded", function() {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Display the countdown in the element with id "countdown"
-        document.getElementById("countdown").innerHTML = "In " + days + "𝗱 " + hours + "𝗵 " + minutes + "𝗺 " + seconds + "𝘀 ";
+        document.getElementById("countout").innerHTML = "𝗘𝗻𝗱𝘀 𝗶𝗻: " + days + "𝗱 " + hours + "𝗵 " + minutes + "𝗺 " + seconds + "𝘀 ";
 
         // If the countdown is over, display a message
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("countdown").innerHTML = "EXPIRED";
+            document.getElementById("countout").innerHTML = "𝗢𝘂𝘁 𝗼𝗳 𝘀𝘁𝗼𝗰𝗸";
         }
     }, 1000);
 });

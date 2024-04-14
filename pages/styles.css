@@ -158,7 +158,7 @@ body {
     width: 145px;
     height: 200px;
     background-color: white;
-    border-radius: 30px;
+    border-radius: .5rem .2rem;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.99); 
 }
@@ -170,7 +170,6 @@ body {
     font-size: 14px;
     margin-bottom: 4px;
     margin-left: 47px;
-    margin-top: -15px;
     z-index: 1011;
 }
 
@@ -186,7 +185,6 @@ body {
   width: 1.25rem;
   height: 1.25rem;
   z-index: 1009;
-  margin-top: -5px;
 }
 
 .error-svg {
@@ -194,14 +192,11 @@ body {
   width: 1.25rem;
   height: 1.25rem;
   z-index: 1009;
-  margin-top: -5px;
 }
 
 .price-card img {
     width: 60px;
     height: 60px;
-    border-radius: 50%; /* Makes the image round */
-    background-color: white; /* Adds white background */
     margin-left: 47px; /* Adjust left margin to center horizontally */
     margin-top: -35px; /* Adjust top margin to move image up */
     z-index: 1010;

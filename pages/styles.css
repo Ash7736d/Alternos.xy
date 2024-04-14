@@ -216,6 +216,12 @@ body {
     margin-left: 25px;
     margin-top: 10px;
     cursor: pointer;
+    margin-bottom: 1px;
+}
+
+.booter {
+  color: #959595; /* Example color */
+  font-size: 8px; /* Example font size */
 }
 
 /* ends */

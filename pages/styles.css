@@ -177,21 +177,21 @@ body {
     color: black;
     font-size: 11px;
     margin-top: -5px;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 
 .tick {
     color: green !important;
     border: 2px solid green; /* Change the color to green */
     border-radius: 50%;
-    padding: 2px;
+    padding: 10px;
 }
 
 .cross {
     color: red !important;
     border: 2px solid red; /* Change the color to red */
     border-radius: 50%;
-    padding: 2px;
+    padding: 10px;
 }
 
 .price-card img {

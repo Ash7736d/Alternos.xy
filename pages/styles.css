@@ -177,15 +177,19 @@ body {
     color: black;
     font-size: 11px;
     margin-top: -5px;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
 }
 
 .tick {
-    color: green;
+    border: 2px solid green; /* Change the color to green */
+    border-radius: 50%;
+    padding: 2px;
 }
 
 .cross {
-    color: red;
+    border: 2px solid red; /* Change the color to red */
+    border-radius: 50%;
+    padding: 2px;
 }
 
 .price-card img {
@@ -197,7 +201,7 @@ body {
 }
 
 .price-card .buy-button {
-    background-color: #32a6ff;
+    background-color: #3653f8;
     color: white;
     border: none;
     width: 94px;

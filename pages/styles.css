@@ -156,33 +156,35 @@ body {
 
 .price-card {
     width: 145px;
-    height: 190px;
+    height: 200px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.99); 
 }
 
 .price-card h2 {
     color: black;
     font-size: 12px;
     margin-bottom: 6px;
+    margin-left: 50px;
+    color: #32a6ff;
 }
 
 .price-card p {
     color: black;
     font-size: 10px;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .tick {
     margin-right: 5px;
-    color: green;
+    color: #49c836;
 }
 
 .cross {
     margin-right: 5px;
-    color: red;
+    color: #c83636;
 }
 
 .circle {
@@ -195,17 +197,17 @@ body {
 }
 
 .circle-green {
-    background-color: green;
+    color: green;
 }
 
 .circle-red {
-    background-color: red;
+    color: red;
 }
 
 .price-card img {
     width: 50px;
     height: 50px;
-    margin-right: 50px;
+    margin-left: 50px;
     z-index: 1000;
 }
 

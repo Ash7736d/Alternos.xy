@@ -179,22 +179,24 @@ body {
     color: black;
     font-size: 12px;
     margin-top: -20px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .tick {
     color: green !important;
+    margin-bottom: 4px;
 }
 
 .cross {
     color: red !important;
+    
 }
 
 .price-card img {
     width: 60px;
     height: 60px;
     margin-left: 47px; /* Adjust left margin to center horizontally */
-    margin-top: -35px; /* Adjust top margin to move image up */
+    margin-top: -33px; /* Adjust top margin to move image up */
     z-index: 1010;
 }
 
@@ -208,7 +210,7 @@ body {
     padding: 5px 10px;
     font-size: 10px;
     margin-left: 26px;
-    margin-top: 5px;
+    margin-top: 10px;
     cursor: pointer;
     margin-bottom: 1px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);

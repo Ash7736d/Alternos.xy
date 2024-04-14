@@ -158,17 +158,18 @@ body {
     width: 145px;
     height: 200px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.99); 
 }
 
 .price-card h2 {
-    color: black;
+    background: linear-gradient(90deg, #963cbb, #2e2d2e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 12px;
     margin-bottom: 6px;
     margin-left: 50px;
-    color: #32a6ff;
 }
 
 .price-card p {
@@ -180,28 +181,17 @@ body {
 .tick {
     margin-right: 5px;
     color: #49c836;
+    border: 1px solid #49c836;
+    border-radius: 50%;
+    padding: 2px;
 }
 
 .cross {
     margin-right: 5px;
     color: #c83636;
-}
-
-.circle {
-    width: 18px;
-    height: 18px;
+    border: 1px solid #c83636;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.circle-green {
-    color: green;
-}
-
-.circle-red {
-    color: red;
+    padding: 2px;
 }
 
 .price-card img {
@@ -209,15 +199,17 @@ body {
     height: 50px;
     margin-left: 50px;
     z-index: 1000;
+    margin-top: -10px;
 }
 
 .price-card .buy-button {
-    background-color: black;
+    background-color: #32a6ff;
     color: white;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 10px;
+    margin-left: 50px;
     cursor: pointer;
 }
 

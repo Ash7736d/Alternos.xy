@@ -184,13 +184,10 @@ body {
   height: 1.25rem;
 }
 
-.cross {
-    margin-right: 5px;
-    color: white;
-    border: 1px solid #c83636;
-    background-color: #c83636;
-    border-radius: 50%;
-    padding: 2px;
+.error-svg {
+  color: #F87171;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .price-card img {

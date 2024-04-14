@@ -158,7 +158,7 @@ body {
     width: 145px;
     height: 200px;
     background-color: white;
-    border-radius: 1rem .2rem;
+    border-radius: 3rem .2rem;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.99); 
 }
@@ -185,7 +185,6 @@ body {
   width: 1.30rem;
   height: 1.30rem;
   z-index: 1009;
-  margin-bottom: 1px;
 }
 
 .error-svg {
@@ -193,7 +192,6 @@ body {
   width: 1.30rem;
   height: 1.30rem;
   z-index: 1009;
-  margin-bottom: 1px;
 }
 
 .price-card img {
@@ -217,6 +215,7 @@ body {
     margin-top: 10px;
     cursor: pointer;
     margin-bottom: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
 .booter {

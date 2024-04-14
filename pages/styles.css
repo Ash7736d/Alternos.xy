@@ -181,17 +181,9 @@ body {
 }
 
 .succes-svg {
-  color: rgb(74 222 128);
-  width: 1.10rem;
-  height: 1.10rem;
-  z-index: 1009;
-}
-
-.error-svg {
-  color: #F87171;
-  width: 1.50rem;
-  height: 1.50rem;
-  z-index: 1009;
+    width: 10px;
+    height: 10px;
+    z-index: 1009;
 }
 
 .price-card img {

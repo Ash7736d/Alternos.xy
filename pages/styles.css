@@ -156,7 +156,7 @@ body {
 
 .price-card {
     width: 145px;
-    height: 200px;
+    height: 205px;
     background-color: white;
     border-radius: 2rem .2rem;
     padding: 10px;
@@ -222,7 +222,7 @@ body {
   color: #4c4c4c; /* Example color */
   font-size: 9px; /* Example font size */
   margin-left: 20px;
-  z-index: 1000;
+  z-index: 1009;
 }
 
 /* ends */

@@ -156,7 +156,7 @@ body {
 
 .price-card {
     width: 145px;
-    height: 205px;
+    height: 195px;
     background-color: white;
     border-radius: 2rem .2rem;
     padding: 10px;
@@ -180,21 +180,15 @@ body {
     color: black;
     font-size: 11px;
     margin-top: -5px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .tick {
     color: green !important;
-    border: 2px solid green; /* Change the color to green */
-    border-radius: 50%;
-    padding: 3px;
 }
 
 .cross {
     color: red !important;
-    border: 2px solid red; /* Change the color to red */
-    border-radius: 50%;
-    padding: 3px;
 }
 
 .price-card img {

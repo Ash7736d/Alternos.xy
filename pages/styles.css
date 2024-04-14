@@ -181,9 +181,8 @@ body {
 }
 
 .succes-png {
-    width: 10%;
-    height: 10%;
-    z-index: 1009;
+    width: 50%;
+    height: auto; /* To maintain aspect ratio */
 }
 
 .price-card img {

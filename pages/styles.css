@@ -306,8 +306,8 @@ body {
   height: 120%;
   padding: 10px;
   display: flex;
-  margin-top: -20px;
-  margin-left: -10px;
+  margin-top: -40px;
+  margin-left: 10px;
   flex-direction: column;
   justify-content: space-between;
   z-index: 1000;

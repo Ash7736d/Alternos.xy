@@ -317,7 +317,7 @@ body {
   border-radius: 10px;
   backdrop-filter: blur(2px);
   width: fit-content;
-  margin-top: -50px;
+  margin-top: 10px;
 }
 
 .description {

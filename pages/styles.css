@@ -178,12 +178,11 @@ body {
 .price-card p {
     color: black;
     font-size: 12px;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .tick {
     color: green !important;
-    margin-bottom: 4px;
 }
 
 .cross {

@@ -196,7 +196,7 @@ body {
     border: 2px solid #c73b3b; /* Change the color to red */
     border-radius: 60%;
     background-color: #c73b3b;
-    padding: 10px; /* Increase padding to thicken the inner part */
+    padding: 50px; /* Increase padding to thicken the inner part */
 }
 
 .price-card img {

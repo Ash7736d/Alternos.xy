@@ -177,12 +177,13 @@ body {
 
 .price-card p {
     color: black;
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 3px;
 }
 
 .tick {
     color: white !important;
+    font-size: 5px;
     border: 2px solid #3bc758; /* Change the color to green */
     border-radius: 50%;
     background-color: #3bc758;

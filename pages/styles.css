@@ -47,7 +47,7 @@ body {
     border: 5px solid #479fff;
 }
 
-.card-title {
+.cardm-titlem {
     margin: 0;
     margin-top: -50px;
     font-size: 18px;
@@ -59,7 +59,7 @@ body {
     cursor: default;
 }
 
-.card-des {
+.cardm-desm {
     margin: 0;
     font-size: 15px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -75,7 +75,7 @@ body {
     cursor: default;
 }
 
-.card-text {
+.cardm-textm {
     position: absolute;
     margin: 0;
     font-size: 14px;
@@ -94,7 +94,7 @@ body {
     cursor: pointer;
 }
 
-.cardm:hover > .card-text {
+.cardm:hover > .cardm-text {
     opacity: 1;
 }
 
@@ -153,12 +153,10 @@ body {
 }
 
 /* price card */
-
 .card {
   overflow: visible;
   width: 190px;
   height: 254px;
-  z-index: 1000;
 }
 
 .content {
@@ -168,7 +166,6 @@ body {
   transition: transform 300ms;
   box-shadow: 0px 0px 10px 1px #000000ee;
   border-radius: 5px;
-  z-index: 1000;
 }
 
 .front, .back {
@@ -180,7 +177,6 @@ body {
   -webkit-backface-visibility: hidden;
   border-radius: 5px;
   overflow: hidden;
-  z-index: 1000;
 }
 
 .back {
@@ -190,7 +186,6 @@ body {
   display: flex;
   align-items: center;
   overflow: hidden;
-  z-index: 1000;
 }
 
 .back::before {
@@ -201,7 +196,6 @@ body {
   height: 160%;
   background: linear-gradient(90deg, transparent, #ff9966, #ff9966, #ff9966, #ff9966, transparent);
   animation: rotation_481 5000ms infinite linear;
-  z-index: 1000;
 }
 
 .back-content {
@@ -216,12 +210,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  z-index: 1000;
 }
 
 .card:hover .content {
   transform: rotateY(180deg);
-  z-index: 1000;
 }
 
 @keyframes rotation_481 {
@@ -289,7 +281,6 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  z-index: 1000;
 }
 
 .circle {
@@ -300,7 +291,6 @@ body {
   position: relative;
   filter: blur(15px);
   animation: floating 2600ms infinite linear;
-  z-index: 1000;
 }
 
 #bottom {
@@ -310,7 +300,6 @@ body {
   width: 150px;
   height: 150px;
   animation-delay: -800ms;
-  z-index: 1000;
 }
 
 #right {

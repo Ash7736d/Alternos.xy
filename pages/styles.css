@@ -191,8 +191,9 @@ body {
 
 .cross {
     color: white !important;
+    width: 5px;
     border: 2px solid #c73b3b; /* Change the color to red */
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #c73b3b;
     padding: 2px;
 }

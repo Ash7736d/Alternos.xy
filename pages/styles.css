@@ -182,17 +182,18 @@ body {
 }
 
 .tick {
-    color: green !important;
-    border: 2px solid green; /* Change the color to green */
+    color: white !important;
+    border: 2px solid #3bc758; /* Change the color to green */
     border-radius: 50%;
-    background-color: #1ec340;
+    background-color: #3bc758;
     padding: 2px;
 }
 
 .cross {
-    color: red !important;
-    border: 2px solid red; /* Change the color to red */
+    color: white !important;
+    border: 2px solid #c73b3b; /* Change the color to red */
     border-radius: 50%;
+    background-color: #c73b3b;
     padding: 2px;
 }
 

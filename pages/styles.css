@@ -170,7 +170,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 16px;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     margin-left: 47px;
     z-index: 1011;
 }
@@ -178,13 +178,14 @@ body {
 .price-card p {
     color: black;
     font-size: 12px;
-    margin-bottom: 1px;
+    margin-bottom: 3px;
 }
 
 .tick {
     color: green !important;
     border: 2px solid green; /* Change the color to green */
     border-radius: 50%;
+    background-color: #1ec340;
     padding: 2px;
 }
 

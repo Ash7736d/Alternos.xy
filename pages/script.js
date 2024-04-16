@@ -27,31 +27,30 @@ document.addEventListener("DOMContentLoaded", function() {
       window.location.href = '../index.html'; // Navigate to the index.html in the main directory
     });
 
-    // Set the date we're counting down to
-    var countDownDate = new Date("May 15, 2024 00:00:00").getTime();
+    // Set the countdown date (May 15, 2024)
+var countdownDate = new Date("May 15, 2024 00:00:00").getTime();
 
-    // Update the countdown every 1 second
-    var x = setInterval(function() {
-        // Get the current date and time
-        var now = new Date().getTime();
-        
-        // Calculate the distance between now and the countdown date
-        var distance = countDownDate - now;
-        
-        // Calculate days, hours, minutes, and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        
-        // Display the countdown
-        var countdownElement = document.getElementById("countdown");
-        countdownElement.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-        
-        // If the countdown is over, display a message
-        if (distance < 0) {
-            clearInterval(x);
-            countdownElement.innerHTML = "EXPIRED";
-        }
-    }, 1000);
+// Update the countdown every second
+var countdownInterval = setInterval(function() {
+  // Get the current date and time
+  var now = new Date().getTime();
+
+  // Calculate the remaining time
+  var distance = countdownDate - now;
+
+  // If the countdown is over, display the "Buy" button
+  if (distance <= 0) {
+    clearInterval(countdownInterval);
+    document.getElementById("countdownButton").innerHTML = "Buy";
+  } else {
+    // Calculate days, hours, minutes, and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the countdown inside the button
+    document.getElementById("countdownButton").innerHTML = days + "d, " + hours + "h, " + minutes + "m, " + seconds + "s";
+  }
+}, 1000);
 });

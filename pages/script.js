@@ -19,12 +19,6 @@ closeButton.addEventListener("click", function() {
     popupCard.classList.remove("show");
 });
 
-// Add event listener to the button to navigate to the main directory
-document.getElementById('shopButton').addEventListener('click', function(event) {
-  event.preventDefault(); // Prevent the default action
-  window.location.href = '../index.html'; // Navigate to the index.html in the main directory
-});
-
 // Set the date for the countdown (April 25)
 const countDownDate = new Date("Apr 25, 2024 00:00:00").getTime();
 

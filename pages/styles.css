@@ -402,14 +402,14 @@ body {
 
 /* buy */
 button {
-  width: 80px;
+  width: 100px;
   height: 35px;
   padding: 12.5px 30px;
   border: 0;
   border-radius: 100px;
   background-color: #2ba8fb;
   color: #ffffff;
-  font-size: 11px;
+  font-size: 7px;
   font-weight: Bold;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;

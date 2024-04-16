@@ -52,5 +52,5 @@ var countdownInterval = setInterval(function() {
     // Display the countdown inside the button
     document.getElementById("countdownButton").innerHTML = days + "d, " + hours + "h, " + minutes + "m, " + seconds + "s";
   }
-}, 1000);
+ }, 1000);
 });

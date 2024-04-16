@@ -42,6 +42,6 @@ var countdownInterval = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the countdown inside the button
-    document.getElementById("countdownButton").innerHTML = days + "d, " + hours + "h, " + minutes + "m, " + seconds + "s";
+    document.getElementById("countdownButton").innerHTML = days + "𝗱❙" + hours + "𝗵❙" + minutes + "𝗺❙, " + seconds + "𝘀";
   }
 }, 1000);

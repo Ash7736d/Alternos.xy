@@ -307,7 +307,7 @@ body {
   padding: 10px;
   display: flex;
   margin-top: -15px;
-  margin-left: 5px;
+  margin-left: 2px;
   flex-direction: column;
   justify-content: space-between;
   z-index: 1009;
@@ -410,12 +410,14 @@ button {
   font-weight: Bold;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
+  z-index: 1009;
 }
 
 button:hover {
   background-color: #6fc5ff;
   box-shadow: 0 0 20px #6fc5ff50;
   transform: scale(1.1);
+  z-index: 1009;
 }
 
 button:active {
@@ -424,5 +426,6 @@ button:active {
   -webkit-transition: all 0.25s;
   box-shadow: none;
   transform: scale(0.98);
+  z-index: 1009;
 }
 

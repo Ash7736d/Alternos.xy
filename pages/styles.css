@@ -429,3 +429,17 @@ button:active {
   z-index: 1009;
 }
 
+.description,
+#countdown {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#timer span {
+    display: inline-block;
+}
+
+#timer span:not(:last-child)::after {
+    content: ":";
+    margin-right: 5px; /* Adjust as needed */
+}

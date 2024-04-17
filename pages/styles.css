@@ -345,6 +345,10 @@ body {
   width: 50%;
 }
 
+.ttitle strong1 {
+    color: white !important; /* Add white color */
+}
+
 .card-footer {
   color: #ffffff88;
   margin-top: 5px;

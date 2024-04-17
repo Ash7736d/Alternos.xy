@@ -20,7 +20,7 @@ closeButton.addEventListener("click", function() {
 });
 
 // Set the countdown date (May 15, 2024)
-var countdownDate = new Date("May 15, 2024 00:00:00").getTime();
+var countdownDate = new Date("May 16, 2024 00:00:00").getTime();
 
 // Update the countdown every second
 var countdownInterval = setInterval(function() {

@@ -306,7 +306,7 @@ body {
   height: 115%;
   padding: 10px;
   display: flex;
-  margin-top: -87px;
+  margin-top: -85px;
   margin-left: -3px;
   flex-direction: column;
   justify-content: space-between;
@@ -352,6 +352,7 @@ body {
   font-size: 11px;
   max-width: 100%;
   margin-bottom: 2px;
+  color: #27a0dd;
   display: flex;
   justify-content: space-between;
 }

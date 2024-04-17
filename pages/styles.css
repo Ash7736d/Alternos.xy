@@ -335,7 +335,7 @@ body {
 }
 
 .destext {
-  font-size: 9px;
+  font-size: 8px;
   line-height: 0.5; /* Adjust the value as needed */
 }
 
@@ -349,7 +349,7 @@ body {
 }
 
 .title {
-  font-size: 12px;
+  font-size: 11px;
   max-width: 100%;
   margin-bottom: 2px;
   display: flex;

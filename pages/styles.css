@@ -333,17 +333,10 @@ body {
   border-radius: 5px;
 }
 
-.descr {
-  background-color: #f0f0f0;
+.destext {
+  color: #fff;
   font-size: 5px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 3px;
-}
-
-.descr p {
-  margin: 10px 0;
+  margin-bottom: 1px;
 }
 
 .title {

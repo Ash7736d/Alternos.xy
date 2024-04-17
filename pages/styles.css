@@ -460,67 +460,41 @@ button:active {
 }
 
 /* menu */
-section {
-  --col-orange: #d17842;
-  --col-dark: #0c0f14;
-  --col-darkGray: #52555a;
-  --col-gray: #aeaeae;
-
-  width: fit-content;
+.button-container {
   display: flex;
-  margin-top: 20px;
-  margin-left: 30px;
+  background-color: rgb(27, 133, 219);
+  width: 250px;
+  height: 40px;
   align-items: center;
-  justify-content: space-evenly;
-  background-color: var(--col-dark);
-  border-radius: 30px;
-}
-.label {
-  padding: 8px 18px;
-  transition: all 200ms;
-  display: inline-block;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(27, 133, 219, 0.5) 5px 10px 15px;
 }
 
-.label input[type="radio"] {
-  display: none;
-}
-.label > svg {
-  transition: all 200ms;
-  fill: var(--col-gray);
-  width: 14px;
-}
-.label:hover:not(:has(input:checked)) > svg {
-  fill: #d17842;
-  opacity: 0.6;
-}
-.label::before {
-  content: "";
-  display: block;
-  width: 0%;
-  height: 2px;
-  border-radius: 5px;
-  position: relative;
-  left: 50%;
-  top: 20px;
-  background: var(--col-orange);
-  transition: all 200ms;
-}
-.label > svg {
-  transition: 300ms;
-  fill: var(--col-darkGray);
-  margin-top: 0;
-}
-.label:has(input:checked) > svg {
-  fill: var(--col-orange);
-  scale: 1.2;
-  margin-top: -5px;
+.buttonmenu { 
+  outline: 0 !important;
+  border: 0 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
 }
 
-.label:has(input:checked)::before {
-  width: 100%;
-  left: 0;
-  top: 25px;
+.buttonmenu:hover {
+  transform: translateY(-3px);
 }
+
+.icon {
+  font-size: 20px;
+}
+
 
 .iconhome {
   width: 10%;

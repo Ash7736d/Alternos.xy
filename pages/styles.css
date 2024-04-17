@@ -335,7 +335,7 @@ body {
 
 .destext {
   font-size: 6px;
-  margin-bottom: 0.5px; /* Adjust the value to further reduce the space between the lines */
+  line-height: 1; /* Adjust the value as needed */
 }
 
 .destext p:nth-child(3) {
@@ -344,6 +344,7 @@ body {
 
 .destext p:nth-child(1),
 .destext p:nth-child(2) {
+  line-height: 1; /* Adjust the value as needed */
   color: white;
 }
 

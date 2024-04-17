@@ -352,12 +352,13 @@ body {
   font-size: 11px;
   max-width: 100%;
   margin-bottom: 2px;
-  color: #27a0dd;
+  color: #27a0dd !important;
   display: flex;
   justify-content: space-between;
 }
 
 .title p {
+  color: #27a0dd !important;
   width: 50%;
 }
 
@@ -459,3 +460,10 @@ button:active {
   margin-left: -87px;
   z-index: 9999;
 }
+
+.icondoller {
+  width: 5%;
+  height: 5%;
+}
+
+

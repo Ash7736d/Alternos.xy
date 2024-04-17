@@ -334,6 +334,10 @@ body {
   border-radius: 5px;
 }
 
+.front-content {
+  color: blue;
+}
+
 .destext {
   font-size: 8px;
   line-height: 0.5; /* Adjust the value as needed */
@@ -462,4 +466,6 @@ button:active {
 .icondoller {
   width: 20℅;
   height: 20%;
+  margin-top: 6px;
+  z-index: 1020;
 }

@@ -334,8 +334,8 @@ body {
   border-radius: 5px;
 }
 
-.badge {
-  background-colour: #27a0dd;
+.small.badge {
+    color: #27a0dd !important; /* Change the color to #27a0dd */
 }
 
 .destext {

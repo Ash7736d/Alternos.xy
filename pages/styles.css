@@ -306,7 +306,7 @@ body {
   height: 115%;
   padding: 10px;
   display: flex;
-  margin-top: -79px;
+  margin-top: -87px;
   margin-left: -3px;
   flex-direction: column;
   justify-content: space-between;
@@ -352,13 +352,11 @@ body {
   font-size: 11px;
   max-width: 100%;
   margin-bottom: 2px;
-  color: blue;
   display: flex;
   justify-content: space-between;
 }
 
 .title p {
-  color: blue;
   width: 50%;
 }
 
@@ -462,8 +460,6 @@ button:active {
 }
 
 .icondoller {
-  width: 30℅;
-  height: 30%;
+  width: 20℅;
+  height: 20%;
 }
-
-

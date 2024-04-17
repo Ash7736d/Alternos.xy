@@ -303,7 +303,7 @@ body {
 .front .front-content {
   position: absolute;
   width: 78%;
-  height: 115%;
+  height: 110%;
   padding: 10px;
   display: flex;
   margin-top: -40px;
@@ -337,13 +337,12 @@ body {
   font-size: 7px;
   max-width: 100%;;
   display: flex;
-  margin-bottom: 2%;
 }
 
 .card-footer {
   color: #ffffff88;
   margin-top: 5px;
-  font-size: 8px;
+  font-size: 5px;
 }
 
 .front .img {

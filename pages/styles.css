@@ -306,7 +306,7 @@ body {
   height: 115%;
   padding: 10px;
   display: flex;
-  margin-top: -88px;
+  margin-top: -87px;
   margin-left: -3px;
   flex-direction: column;
   justify-content: space-between;
@@ -454,6 +454,7 @@ button:active {
 .iconlimi {
   width: 32%;
   height: 7%;
-  margin-left: -50px;
+  margin-top: -20px;
+  margin-left: -60px;
   z-index: 9999;
 }

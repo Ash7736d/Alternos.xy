@@ -431,7 +431,7 @@ button {
   color: #ffffff;
   outline: 2px solid #c0b254;
   perspective: 100px;
-  font-size: 7px;
+  font-size: 8px;
   font-weight: Bold;
   transition: all 0.5s;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
@@ -461,11 +461,4 @@ button:active {
   margin-top: -36px;
   margin-left: -87px;
   z-index: 9999;
-}
-
-.icondoller {
-  width: 20℅;
-  height: 20%;
-  margin-top: 6px;
-  z-index: 1020;
 }

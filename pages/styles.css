@@ -303,11 +303,11 @@ body {
 .front .front-content {
   position: absolute;
   width: 78%;
-  height: 100%;
+  height: 130%;
   padding: 10px;
   display: flex;
   margin-top: -15px;
-  margin-left: -1px;
+  margin-left: -3px;
   flex-direction: column;
   justify-content: space-between;
   z-index: 1009;
@@ -343,6 +343,11 @@ body {
 
 .title p {
   width: 50%;
+}
+
+.title strong {
+    display: block;
+    margin-bottom: 3px; /* Adjust the margin as needed */
 }
 
 .card-footer {

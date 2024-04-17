@@ -225,7 +225,7 @@ body {
 .card {
   overflow: visible;
   width: 145px;
-  height: 145px;
+  height: 155px;
 }
 
 .content {
@@ -335,6 +335,7 @@ body {
 
 .destext {
   font-size: 6px;
+  margin-bottom: 0.5px; /* Adjust the value to further reduce the space between the lines */
 }
 
 .destext p:nth-child(3) {

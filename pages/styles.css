@@ -303,7 +303,7 @@ body {
 .front .front-content {
   position: absolute;
   width: 78%;
-  height: 120%;
+  height: 115%;
   padding: 10px;
   display: flex;
   margin-top: -40px;
@@ -319,7 +319,7 @@ body {
   padding: 2px 10px;
   border-radius: 10px;
   backdrop-filter: blur(2px);
-  margin-top: 11px;
+  margin-top: 5px;
   margin-left: 5px;
   width: fit-content;
 }
@@ -334,20 +334,10 @@ body {
 }
 
 .title {
-  font-size: 8px;
-  max-width: 100%;
-  margin-bottom: 2px;
+  font-size: 7px;
+  max-width: 100%;;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 3%;
-}
-
-.title p {
-  width: 50%;
-}
-
-.ttitle strong1 {
-    color: white !important; /* Add white color */
+  margin-bottom: 2%;
 }
 
 .card-footer {

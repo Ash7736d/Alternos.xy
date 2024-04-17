@@ -334,9 +334,16 @@ body {
 }
 
 .destext {
-  color: #fff;
-  font-size: 5px;
-  margin-bottom: 1.5px;
+  font-size: 6px;
+}
+
+.destext p:nth-child(3) {
+  color: red;
+}
+
+.destext p:nth-child(1),
+.destext p:nth-child(2) {
+  color: white;
 }
 
 .title {

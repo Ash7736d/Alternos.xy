@@ -335,8 +335,14 @@ body {
 
 .title {
   font-size: 7px;
-  max-width: 100%;;
+  max-width: 100%;
+  margin-bottom: 2px;
   display: flex;
+  justify-content: space-between;
+}
+
+.title p {
+  width: 50%;
 }
 
 .card-footer {
@@ -397,7 +403,7 @@ body {
 
 /* buy */
 button {
-  width: 110px;
+  width: 105px;
   height: 37px;
   padding: 12.5px 20px;
   border: 0;

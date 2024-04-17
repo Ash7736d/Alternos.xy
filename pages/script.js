@@ -1,3 +1,5 @@
+// Wait for the DOM to be fully loaded
+document.addEventListener("DOMContentLoaded", function();
 // Get the popup trigger element
 var popupTrigger = document.getElementById("popup-trigger");
     

@@ -459,6 +459,7 @@ button:active {
   z-index: 9999;
 }
 
+/* menu */
 section {
   --col-orange: #d17842;
   --col-dark: #0c0f14;
@@ -467,6 +468,8 @@ section {
 
   width: fit-content;
   display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
   align-items: center;
   justify-content: space-evenly;
   background-color: var(--col-dark);

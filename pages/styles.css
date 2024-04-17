@@ -459,14 +459,14 @@ button:active {
   z-index: 9999;
 }
 
-/* menu */
-.paste-menu {
+/* Styles for the paste-button */
+.paste-button {
   position: relative;
-  display: block;
+  display: inline-block; /* Changed to inline-block to align buttons horizontally */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.menu {
+.paste-button .button {
   background-color: #4CAF50;
   color: #212121;
   padding: 10px 15px;
@@ -477,7 +477,7 @@ button:active {
   cursor: pointer;
 }
 
-.dropdown-content {
+.paste-button .dropdown-content {
   display: none;
   font-size: 13px;
   position: absolute;
@@ -489,7 +489,7 @@ button:active {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.dropdown-content a {
+.paste-button .dropdown-content a {
   color: #4CAF50;
   padding: 8px 10px;
   text-decoration: none;
@@ -497,29 +497,28 @@ button:active {
   transition: 0.1s;
 }
 
-.dropdown-content a:hover {
+.paste-button .dropdown-content a:hover {
   background-color: #4CAF50;
   color: #212121;
 }
 
-.dropdown-content a:focus {
+.paste-button .dropdown-content a:focus {
   background-color: #212121;
   color: #4CAF50;
 }
 
-.dropdown-content #top:hover {
+.paste-button #top:hover {
   border-radius: 0px 13px 0px 0px;
 }
 
-.dropdown-content #bottom:hover {
+.paste-button #bottom:hover {
   border-radius: 0px 0px 13px 13px;
 }
 
-.paste-menu:hover menu {
+.paste-button:hover .button {
   border-radius: 15px 15px 0px 0px;
 }
 
-.paste-menu:hover .dropdown-content {
+.paste-button:hover .dropdown-content {
   display: block;
 }
-

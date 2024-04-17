@@ -1,5 +1,3 @@
-// Wait for the DOM to be fully loaded
-document.addEventListener("DOMContentLoaded", function();
 // Get the popup trigger element
 var popupTrigger = document.getElementById("popup-trigger");
     
@@ -47,3 +45,8 @@ var countdownInterval = setInterval(function() {
     document.getElementById("countdownButton").innerHTML = days + "𝗱 " + hours + "𝗵 " + minutes + "𝗺 " + seconds + "𝘀";
   }
 }, 1000);
+
+// Wait for the DOM to be fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    // Your code here
+});

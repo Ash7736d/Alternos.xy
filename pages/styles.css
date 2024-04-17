@@ -340,6 +340,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 3%;
+  display: block; /* Display each title on a separate line */
 }
 
 .title p {

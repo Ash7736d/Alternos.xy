@@ -16,7 +16,7 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
   // Delay showing the original message for 3 seconds
   setTimeout(function() {
     if (inputCode === "") {
-      responseElement.textContent = '𝗜𝗡𝗣𝗨𝗧 𝗖𝗔𝗡𝗡𝗢𝗧 𝗕𝗘 𝗘𝗠𝗣𝗧𝗬!'; // Show error message if input field is empty
+      responseElement.textContent = 'Input cannot be empty!'; // Show error message if input field is empty
       responseElement.style.color = 'white';
     } else {
       // Check if the input code is among the available codes
@@ -24,23 +24,46 @@ document.querySelector('.rainbow-hover').addEventListener('click', function() {
         // Check if the code has already been redeemed
         if (!redeemedCodes.includes(inputCode)) {
           redeemedCodes.push(inputCode); // Mark the code as redeemed
-          responseElement.textContent = '𝗥𝗘𝗗𝗘𝗘𝗠𝗘𝗗 𝗦𝗨𝗦𝗦𝗘𝗦𝗙𝗨𝗟𝗟𝗬! 🎉';
+          responseElement.textContent = 'Redeemed successfully! 🎉';
           responseElement.style.color = 'white';
           document.getElementById("popup").style.display = "block"; // Show the pop-up
+          
+          // Send the input code to be stored
+          storeUserData(inputCode);
         } else {
-          responseElement.textContent = '𝗧𝗛𝗘 𝗖𝗢𝗗𝗘 𝗛𝗔𝗦 𝗔𝗟𝗥𝗘𝗔𝗗𝗬 𝗕𝗘𝗘𝗡 𝗥𝗘𝗗𝗘𝗘𝗠𝗘𝗗!'; // Show error message if code has already been redeemed
+          responseElement.textContent = 'The code has already been redeemed!'; // Show error message if code has already been redeemed
           responseElement.style.color = 'white';
         }
       } else {
-        responseElement.textContent = '𝗜𝗡𝗖𝗢𝗥𝗥𝗘𝗖𝗧 𝗖𝗢𝗗𝗘❌';
+        responseElement.textContent = 'Incorrect code!'; // Show error message if code is incorrect
         responseElement.style.color = 'white';
       }
     }
 
     // Adjust the position of the response messages
     responseElement.style.marginLeft = '45px'; // Move the message 45px to the right
-  }, 5000); // 5 seconds delay
+  }, 3000); // 3 seconds delay
 });
+
+// Function to store user input
+function storeUserData(input) {
+  fetch('/storeUserData', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ userInput: input })
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    // You can handle the response from the server here if needed
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    // Handle errors if the request fails
+  });
+}
 
 // Close the popup when the close button is clicked
 document.querySelector('.close-btn').addEventListener('click', function() {
